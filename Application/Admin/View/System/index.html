@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|管理后台</title>
+    <meta name="keywords" content="全网通;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css" />
+		<link rel="stylesheet" href="__CSS__/menu.css" />
+		
+		<style type='text/css'>
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'><!--自己的js脚本--></script>
+	</head>
+<body>
+  <!---导航栏-->
+	<!--此处要传入当前登录用户的用户名-->
+  <include file="./Tpl/header.html" user="{$user.user}" />
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<!--此处要传入当前选中菜单的class值-->
+					<include file="./Tpl/admin/menu.html" selected="system" />
+				</div>
+				
+				<div class='x10 content'>
+				
+					<div class="tab">
+						<div class="tab-head">
+						<strong>系统设置</strong>
+						<ul class="tab-nav">
+						<li class="active"><a href="#">插件设置</a> </li>
+						<li><a href="{:U('Admin/System/server')}">服务器设置</a> </li>
+						</ul>
+						</div>
+						
+						<div class="tab-body">
+						<div class="tab-panel active">
+						<if condition="$msg neq null">
+						<div class="alert alert-green">
+							<span class="close rotate-hover"></span><strong>提示：</strong>{$msg}
+						</div>
+						</if>
+						
+							<!---插件基本信息-->
+							<div class="panel">
+								<div class="panel-head">插件基本信息</div>
+								<div class="panel-body">
+									<form method="post" class="form-x form-auto" action="./index">
+									<div class="form-group">
+										<div class="label">
+											<label for="username">插件名：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input input-auto" name="crxName" size="30" value="{$crx.crxName}">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="username">版本号：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input input-auto" name="version" size="30" value="{$crx.version}">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="username">强制更新：</label>
+										</div>
+										<div class="field">
+			
+											<label class="button">
+												<input name="forceUpdate" value="1" type="radio" {$crx['forceUpdate']?"checked":""}>是
+											</label>
+											<label class="button">
+												<input name="forceUpdate" value="0" type="radio" {$crx['forceUpdate']?"":"checked"}>否
+											</label>
+			
+												
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="username">升级提示：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input input-auto" name="updateInfo" size="30" value="{$crx.updateInfo}">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="username">升级跳转地址：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input input-auto" name="updateUrl" size="30" value="{$crx.updateUrl}">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="username">客服信息：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input input-auto" name="kfInfo" size="30" value="{$crx.kfInfo}">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="username">联系QQ群：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input input-auto" name="qqGroup" size="30" value="{$crx.qqGroup}">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="username">联系官网：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input input-auto" name="officalSite" size="30" value="{$crx.officalSite}">
+										</div>
+									</div>
+									
+									<div class="form-button">
+										<button class="button bg-sub" type="submit">更新</button>
+									</div>
+								</form>
+								
+								
+								</div>
+							</div>
+							
+							
+						
+						
+						</div>
+						</div>
+						</div>
+						
+					
+					
+					<!---统计共有多少个会员，分布情况--->
+				</div>
+			</div>
+		</div>
+	</div>
+		
+ <!---footer--->
+	<include file="./Tpl/footer.html" />	
+	</body>
+</html>

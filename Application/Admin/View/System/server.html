@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|管理后台</title>
+    <meta name="keywords" content="全网通;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css" />
+		<link rel="stylesheet" href="__CSS__/menu.css" />
+		
+		<style type='text/css'>
+		.sites .site{
+		list-style:none;
+		width:205px;
+		height:125px;
+		float:left;
+		background:#aaa;
+		margin:20px;
+	}
+	.sites .op{
+		position:absolute;
+		//background:rgba(0,0,0,0.4);
+		background:rgba(0,0,0,0.4) none repeat scroll 0 0 !important;
+		filter:Alpha(opacity=40);
+		background:#000000;
+		
+		color:#fff;
+		width:205px;
+		padding-right:10px;
+	}
+	.sites .op>span:hover{
+		color:rgb(68,181,73);
+	}
+	.sites .add{
+		font-size:20px;
+		padding-top:50px;
+		text-align:center;
+	}
+	.sites .img-bg{
+		width:205px;
+		height:100px;
+		text-align:center;
+	}
+	.sites .title{
+		height:24px;
+		line-height:24px;
+		background:rgb(68,181,73);
+		text-align:center;
+		color:#fff;
+	}
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+		<script src="__LIB__/popup.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'>
+		$(function(){
+			var popup = (new Popup()).getInstance();
+			$("body").on("click",".btn-del",function(){
+				$(this).parent().parent().remove();
+			});
+			
+			$(".btn-add").click(function(){
+				$("tbody").append("<tr>"
+					+"<td>?</td><td><input type=text class='input'></td><td><input type=text class='input'></td><td><button class='button bg-red btn-del'>删除</button></td>"
+					+"</tr>");
+			});
+			$(".btn-save").click(function(){
+				//将数据保存写入到config表中k=>'kf',v=>[]
+				var kfs = [];
+				var len = $("table tr:not(.th)").length;
+				for(var i=0;i<len;i++){
+					var k = $("table tr:not(.th):eq("+i+")").find("input");
+					
+					var qq = k[0].value;
+					var name = k[1].value;
+					kfs.push({qq:qq,name:name});
+				}
+				console.log(kfs);
+				$.post("{:U('Admin/System/kf')}",{type:'kf',data:kfs},function(r){
+						popup.setTitle("提示").setBody(r.msg).show();
+						setTimeout(function(){location.reload();},2000);
+					})
+			});
+		});
+		</script>
+	</head>
+<body>
+  <!---导航栏-->
+	<!--此处要传入当前登录用户的用户名-->
+  <include file="./Tpl/header.html" user="{$user.user}" />
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<!--此处要传入当前选中菜单的class值-->
+					<include file="./Tpl/admin/menu.html" selected="system" />
+				</div>
+				
+				<div class='x10 content'>
+				
+					<div class="tab">
+						<div class="tab-head">
+						<strong>系统设置</strong>
+						<ul class="tab-nav">
+						<li><a href="{:U('Admin/System/index')}">插件设置</a> </li>
+						<li class="active"><a href="#">服务器设置</a> </li>
+						</ul>
+						</div>
+						
+						<div class="tab-body">
+						<div class="tab-panel active">
+						<if condition="$msg neq null">
+						<div class="alert alert-green">
+							<span class="close rotate-hover"></span><strong>提示：</strong>{$msg}
+						</div>
+						</if>
+						
+							<!---客服QQ信息-->
+							<div class="panel">
+								<div class="panel-head">客服信息</div>
+								<div class="panel-body">
+									<table class="table">
+										<caption>客服列表</caption>
+										<tr class="th"><td>#</td><td>QQ</td><td>昵称</td><td>操作</td></tr>
+										<volist name="kfs" id="kf">
+										<tr>
+											<td>{$i}</td><td><input type="text" class="input" value="{$kf.qq}"></td><td><input type="text" class="input" value="{$kf.name}"></td><td><button class="button btn-del bg-red">删除</button></td>
+										</tr>
+										</volist>
+										
+									</table>
+									<div class="tools">
+											<button  class='button bg-sub btn-add'>添加</button>  <button class='button bg-main btn-save'>保存</button>
+									</div>
+								</div>
+							</div>
+													
+						</div>
+						</div>
+						</div>
+						
+					
+					
+					<!---统计共有多少个会员，分布情况--->
+				</div>
+			</div>
+		</div>
+	</div>
+		
+ <!---footer--->
+	<include file="./Tpl/footer.html" />	
+	</body>
+</html>

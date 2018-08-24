@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|管理后台</title>
+    <meta name="keywords" content="全网通;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css" />
+		<link rel="stylesheet" href="__CSS__/menu.css" />
+		<style type='text/css'>
+		.toolbar{
+			margin-top:30px;
+			float:left;
+		}
+		.des{
+			margin:30px 0;
+			float:right;
+		}
+		.des .box{
+			float:left;
+			margin-left:10px;
+		}
+		.des .block{
+			float:left;
+			width:30px;
+			height:25px;
+		}
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+		<script src="__LIB__/popup.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'>
+		$(function(){
+			var popup = (new Popup()).getInstance();
+			var serverStatusMap = {
+				"ZC":{zh:"正常",cls:"bg-sub"},
+				"LC":{zh:"流畅",cls:"bg-main"},
+				"YJ":{zh:"拥挤",cls:"bg-red"},
+				"TY":{zh:"停用",cls:"bg-gray"}
+			};
+			var countryMap = {"en":"英国","us":"美国","ca":"加拿大","kr":"韩国","jp":"日本","tw":"台湾","sg":"新加坡"};
+			$(".btn-add").click(function(){
+				window.open("{:U('Admin/Node/add')}");
+			});
+			
+			var Telanx = {
+				init:function(){
+					var _this = this;
+					var eventHandler = {
+						//刷新节点信息
+						refresh:function(e){
+							console.log("sss");
+							_this.refreshServerList();
+						},
+						//修改节点，最多修改一个
+						modify:function(e){
+							var checkboxC = $("tbody").find("input[type=checkbox]:checked");
+							if(checkboxC.length != 1){
+								popup.setTitle("提示").setBody("<p class=text-center>请选择一个再操作！</p>").show();
+								return false;
+							}
+							//
+						},
+						//同步节点
+						sync:function(e){
+						
+						},
+						//删除节点
+						del:function(e){
+							var checkboxC = $("tbody").find("input[type=checkbox]:checked");
+							if(checkboxC.length === 0) {
+								popup.setTitle("提示").setBody("<p class=text-center>请至少选择一个！</p>").show();
+							}else{
+								var len = checkboxC.length;
+								var firstNode = $(checkboxC[0].parentNode).next().next().text();
+								popup.setTitle("提示").setBody("<p class=text-center>确认删除["+firstNode+"]等"+len+"个节点？</p><p class='text-center'><button class='button border-red btn-del-confirm'>确认</button></p>").show();
+								popup.container.on('click','.btn-del-confirm',function(){
+									var servers = Telanx.getSelectedServers();
+									popup.setBody("");
+									for(var i=0;i<servers.length;i++){
+										(function(id){
+											$.getJSON("{:U('Admin/Node/delRS')}?id="+id,function(r){
+												popup.append("<li>删除节点"+id+"=>"+r.msg+"</li>");
+												if(servers.indexOf(id)+1==servers.length){
+													setTimeout(function(){location.reload();},1000);
+												}
+											});
+										})(servers[i])
+									}
+								});
+							}
+						},
+						//选择
+						selectAll:function(e){
+							var checkf = e.target.checked;
+							$("tbody").find("input[type=checkbox]").prop("checked",checkf);
+						}
+						
+					}
+					this.refreshServerList();
+					this.addEventListener({
+						click:{
+							".btn-refresh":eventHandler.refresh,
+							".btn-edit":eventHandler.modify,
+							".btn-sync":eventHandler.sync,
+							".btn-del":eventHandler.del,
+							".btn-select-all":eventHandler.selectAll
+						}
+					});
+				},
+				getSelectedServers:function(){
+					var servers = [];
+					var checkboxC = $("tbody").find("input[type=checkbox]:checked");
+					var len = checkboxC.length;
+					for(var i=0;i<len;i++){
+						servers.push(checkboxC[i].getAttribute("data-id"));
+					}
+					return servers;
+				},
+				addEventListener:function(ops) {
+					for(var e in ops){
+						if(ops.hasOwnProperty(e)){
+							var nodes = ops[e];
+							for(var node in nodes){
+								$(node).on(e,nodes[node]);
+							}
+						}
+					}
+				},
+				refreshServerList:function(){
+					popup.showTip("获取代理服务器节点...");
+					this.getServer(null,function(r){
+						popup.hideTip();
+						var tbody = $(".serverlist tbody");
+						tbody.html("");
+						for(var i=0;i<r.length;i++) {
+							var server = r[i];
+							tbody.append("<tr>"
+							+ "<td><input type=checkbox data-id="+server.id+"></td>"
+							+ "<td>"+server.id+"</td>"
+							+ "<td>"+server.name+"</td>"
+							+ "<td>"+server.num+"</td>"
+							+ "<td>"+server.ip+"</td>"
+							+ "<td>"+countryMap[server.country]+"<img src=__IMG__/flags/"+server.country+".png width=30 height=30></td>"
+							+ "<td class="+serverStatusMap[server.status].cls+">"+serverStatusMap[server.status].zh+"</td>"
+							+ "<td>"+server.remark+"</td>"
+							+ "<td>"+server.lastsynctime+"</td>"
+							+ "</tr>");
+						}
+					});
+				},
+				getServer:function(id,fn){
+					var url = "{:U('Admin/Node/getProxyServer')}";
+					$.getJSON(url+"?id="+id,function(r){
+						fn(r);
+					});
+				}
+			}
+			Telanx.init();
+		});
+		</script>
+	</head>
+<body>
+  <!---导航栏-->
+	<!--此处要传入当前登录用户的用户名-->
+  <include file="./Tpl/header.html" user="{$user.user}" />
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<!--此处要传入当前选中菜单的class值-->
+					<include file="./Tpl/admin/menu.html" selected="node" />
+				</div>
+				
+				<div class='x10 content'>
+					
+					
+					<div class="tab">
+						<div class="tab-head">
+						<strong>代理服务器</strong>
+						<ul class="tab-nav">
+						<li><a href="{:U('Admin/Node/index')}">概览</a> </li>
+						<li class="active"><a href="#">节点管理</a> </li>
+						<li><a href="{:U('Admin/Node/Settings')}">配置</a> </li>
+						</ul>
+						</div>
+						
+						<div class="tab-body">
+						<div class="tab-panel active">
+						<!----content start ------->
+							<div class="nodemanage">
+								<div class="head">
+									<button class="button bg-main btn-add">添加新节点</button>
+									<button class="button bg-yellow btn-refresh">刷新节点状态</button>
+								</div>
+								<div class="serverlist">
+										<table class="table">
+											<caption>
+												代理服务器节点列表
+											</caption>
+											<thead>
+												<tr>
+													<th>选择</th>
+													<th>#</th>
+													<th>节点名</th>
+													<th>人数</th>
+													<th>IP</th>
+													<th>所属地区</th>
+													<th>状态</th>
+													<th>备注</th>
+													<th>上次同步时间</th>
+												</tr>
+											</thead>
+											<tbody>
+											</tbody>
+										</table>
+										<div class="toolbar">
+											<label><input type="checkbox" class="btn-select-all">全选</label>
+											<button class="button border-red btn-del">删除</button>
+											<button class="button bg-sub btn-edit">修改</button>
+										</div>
+										<div class="des">
+											<div class='box'>
+												<div class='block bg-sub'></div>正常
+											</div>
+											<div class='box'>
+												<div class='block bg-main'></div>流畅
+											</div>
+											<div class='box'>
+												<div class='block bg-red'></div>拥挤
+											</div>
+											<div class='box'>
+												<div class='block bg-gray'></div>停用
+											</div>
+										</div>
+										
+								</div>
+							</div>
+						<!----content end---------->
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+		
+ <!---footer--->
+	<include file="./Tpl/footer.html" />	
+	</body>
+</html>

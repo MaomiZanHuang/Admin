@@ -1,0 +1,13 @@
+<dl class='menu'>
+	<dd class='menu-s index <if condition="([selected] eq index)">selected</if>'><a href={:U('Admin/Index/index')} class='icon-home'>开始</a></dd>	
+	<!--
+	<dd class='menu-s node <if condition="([selected] eq node)">selected</if>'><a href={:U('Admin/Node/index')} class='icon-sitemap'>节点管理</a></dd>
+	<dd class='menu-s cashier <if condition="([selected] eq cashier)">selected</if>'><a href={:U('Admin/Cashier/index')} class='icon-users'>收银员管理</a></dd>
+	<dd class='menu-s cash <if condition="([selected] eq cash)">selected</if>'><a href={:U('Admin/Cash/index')} class='icon-cny'>充值续费</a></dd>
+	<dd class='menu-s system <if condition="([selected] eq system)">selected</if>'><a href={:U('Admin/System/index')} class='icon-gears (alias)'>系统配置</a></dd>
+	-->
+	<dd class='menu-s user <if condition="([selected] eq user)">selected</if>'><a href={:U('Admin/Goods/index')} class='icon-users'>商品管理</a></dd>
+	<dd class='menu-s pubg <if condition="([selected] eq pubg)">selected</if>'><a href={:U('Admin/Card/index')} class='icon-gears (alias)'>卡密管理</a></dd>
+	<dd class='menu-s'><a href={:U('Admin/Login/logout')} class='icon-sign-out'>退出登录</a></dd>					
+	<dd class='cpy text-center'><p>__MENU_TIPS_ADMIN__</p></dd>
+</dl>

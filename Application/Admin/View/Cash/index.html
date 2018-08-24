@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|管理后台</title>
+    <meta name="keywords" content="全网通;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css" />
+		<link rel="stylesheet" href="__CSS__/menu.css" />
+		<style type='text/css'>
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+		<script src="__LIB__/popup.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'>
+		$(function(){
+			var popup =(new Popup()).getInstance();
+			var statusMap = ["未激活","正常","已过期"];
+			var userCharge = {};
+			
+			// 预选充值选项
+			$('.pre-charge button').click(function(e) {
+				$('.pre-charge button').removeClass('active');
+				$(e.target).addClass('active');
+				var type = $(e.target).attr('data-type');
+				var addTime = {
+					n: 0,
+					type: 'hour',
+					price: 0
+				};
+				switch(type) {
+					case 'day':
+						Object.assign(addTime, { n: 1, type: 'day', price: 5 });
+						break;
+					case 'month':
+						Object.assign(addTime, { n: 1, type: 'month', price: 15 });
+						break;
+					case 'quarter':
+						Object.assign(addTime, { n: 3, type: 'month', price: 40 });
+						break;
+					case 'year':
+						Object.assign(addTime, { n: 12, type: 'month', price: 115 });
+						break;
+					default: undefined;
+				}
+				$('input[name=chargeTime]').val(addTime.n);
+				$('select[name=unit').val(addTime.type === 'day' ? 'd' : 'm');
+				$('input[name=cash]').val(addTime.price);
+				$('input[name=chargeTime]').change();
+				
+			});
+			$(".btn-search").click(function(){
+				var user = $("#user").val().trim();
+				if(user===""){
+					popup.showTip("用户名不能为空！");
+					setTimeout(function(){popup.hideTip();},1000);
+					return false;
+				}
+				popup.showTip("正在查询用户...");
+				$.getJSON("{:U('Admin/User/getUser')}?user="+user,function(r){
+					userCharge = r[0];
+					popup.hideTip();
+					if(r.length==0){
+						$(".btn-charge").prop("disabled",true);
+						$(".user-charge").html("");
+						$("tbody").html("<tr><td colspan='4' class='text-red text-center'>无任何结果！</td></tr>");
+						return false;
+					}else{
+						$(".btn-charge").prop("disabled",false);
+						var user = r[0];
+						$(".user-charge").html(user.user);
+						$("tbody").html("<tr><td>"+user.user+"</td><td>"+user.email+"</td><td>"+statusMap[user.status]+"</td><td>"+user.expiredate+"</td></tr>");
+					}
+				});
+				
+			});
+			$("input[name=cash]").change(function(){
+				userCharge.cash=$(this).val();
+			});
+			$("input[name=chargeTime],select[name=unit]").change(function(){
+				var t = $("input[name=chargeTime]").val();
+				var u = $("select[name=unit]").val();
+				var cash = $('input[name=cash]').val();
+				userCharge.amt = t;
+				userCharge.unit = u;
+				userCharge.cash = cash;
+				var multiple = 1;
+				switch(u){
+					case 'h':multiple=1;break;
+					case 'd':multiple=24;break;
+					case 'm':multiple=30*24;break;
+				}
+				var addT = parseFloat(t)*multiple*3600*1000;
+				if(userCharge==undefined){
+					$(".expireDate2").html("");
+					return false;
+				}
+				var now = (new Date()).getTime();
+				var expireDate = (new Date(userCharge.expiredate)).getTime();
+				expireDate = expireDate>now?expireDate:now;
+				expireDate2 = (new Date(expireDate+addT)).toLocaleString();
+				$(".expireDate2").html(expireDate2);
+			});	
+			
+			$(".btn-charge").click(function(){
+			
+				var uid = userCharge.user,amt=userCharge.amt,unit=userCharge.unit,cash=userCharge.cash;
+				var trano = $('input[name=trano]').val();
+				if(isNaN(cash)||cash.trim()==''){
+					alert("金额输入不正确！");
+					return false;
+				}
+				$.post("{:U('Admin/Cash/recharge')}",{"uid":uid,"amt":amt,"unit":unit,"cash":cash, "trano": trano},function(r){
+					popup.showTip(r.msg||r);
+					if(r.status==1){
+						setTimeout(function(){
+							location.reload();
+						},1000);
+					}
+					
+				});
+			});
+		});
+		</script>
+	</head>
+<body>
+  <!---导航栏-->
+	<!--此处要传入当前登录用户的用户名-->
+  <include file="./Tpl/header.html" user="{$user.user}" />
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<!--此处要传入当前选中菜单的class值-->
+					<include file="./Tpl/admin/menu.html" selected="cash" />
+				</div>
+				
+				<div class='x10 content'>
+					<h3>用户充值</h3>
+					<hr>
+					<div class="search-form" onsubmit="return false;">
+						<form style='max-width:500px;margin:0 auto;'>
+							<input type='text' class='input' placeholder='请输入用户名' id='user' style='width:60%;border-radius:0;float:left'>
+							<button class='button bg-main btn-search' class='float:left'>搜索</button>
+							
+						</form>
+					</div>
+					<div class="userinfo">
+						<table class="table">
+						<thead>
+							<tr class="th">
+								<th>账号</th><th>邮箱</th><th>状态</th><th>到期时间</th>
+							</tr>
+						</thead>
+							<tbody>
+							<tr>
+								<tr><td colspan='4' class='text-red'></td></tr>
+							<tr>
+							</tbody>
+						</table>
+					</div>
+					<hr>
+					<div class="charge-pre">
+						充值预选项:
+						<div class="button-group border-blue pre-charge">
+							<button type="button" class="button" data-type="day">
+								临时会员</button>
+							<button type="button" class="button" data-type="month">
+								月 费</button>
+							<button type="button" class="button" data-type="quarter">
+								季 度</button>
+							<button type="button" class="button" data-type="year">
+								年 费</button>
+						</div>
+					</div>
+					<hr/>
+					<div class="recharge-form panel" style='margin-bottom:50px'>
+						<div class="panel-head">选择<span class='text-red user-charge'></span>充值:</div>
+						<div class="panel-body">
+						<div class='line'>
+							<input type="text" class="input" name="chargeTime" placeholder="输入充值时间" style='width:40%;border-radius:0;float:left'>
+							<select style="height:34px;" name="unit">
+							<option value="h">小时</option>
+							<option value="d">天</option>
+							<option value="m">月</option>
+							</select>
+							<span>预计到期时间:</span><span class='text-red expireDate2'></span>
+						</div>
+						<div class="form form-x">
+							<div class="label"><label>充值金额:</label></div>
+							<div class="field"><input type="text" class="input" name="cash" placeholder="请输入当前充值金额"></div>
+						</div>
+						
+						<div class="form form-x">
+							<div class="label"><label>充值单号:</label></div>
+							<div class="field"><input type="text" class="input" name="trano" placeholder="请输入充值订单号"></div>
+						</div>
+							<br>
+							<div class='line'>
+							<button class="button bg-main btn-charge" disabled>充值</button></div>
+					</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+		
+ <!---footer--->
+	<include file="./Tpl/footer.html" />	
+	</body>
+</html>

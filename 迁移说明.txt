@@ -1,0 +1,2 @@
+1.修改Public/img里的logo
+2.Application\Common\Conf\config.php里修改一下即可

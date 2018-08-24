@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|用户后台</title>
+    <meta name="keywords" content="__APPNAME__;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+		<style type='text/css'>
+.card {
+  border-radius: 5px;
+  background-image: url("/static/img/pay/bigstripe.png");
+  background-repeat: no-repeat;
+  padding: 5px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+.card {
+    background-image: url("/static/img/pay/bigstripe@2x.png");
+    background-size: 68px 80px;
+  }
+}
+.card h3 {
+  font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, "TW\-Kai", serif;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  margin: 0;
+  text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.5);
+}
+.card .corner {
+  float: right;
+  width: 67px;
+  height: 71px;
+  background-image: url("/static/img/pay/coner.png");
+  margin-right: -5px;
+  margin-top: -5px;
+  margin-left: -67px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+ .card .corner {
+    background-image: url("/static/img/pay/coner@2x.png");
+    background-size: 67px 71px;
+  }
+}
+.card .body {
+  background-color: white;
+  border-radius: 5px;
+}
+.card .body .price-box {
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px 5px 0 0;
+  background-color: #f5f5f5;
+  background-image: url('/static/img/pay/noise_price.jpg');
+  border-bottom: 1px solid #c5c5c5;
+  padding: 10px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+.card .body .price-box {
+    background-image: url("/static/img/pay/noise_price@2x.jpg");
+    background-size: 15px 15px;
+  }
+}
+.card .body .price-box .price {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  font-size: 72px;
+  text-align: center;
+  padding-right: 20px;
+}
+.card .body .price-box .price small {
+  width: 20px;
+  float: left;
+  font-size: 14px;
+  margin-top: 25px;
+}
+.card .body .price-box .duration {
+  font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, "TW\-Kai", serif;
+  font-size: 18px;
+  width: 120px;
+  margin: 0 auto;
+  background-color: #ededed;
+  padding: 3px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+.card .body .price-box .pay.btn {
+  font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, "TW\-Kai", serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  margin-bottom: -34px;
+  color: white;
+  border-width: 0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.card .body ul.features {
+  list-style: none;
+  margin: 40px auto 0 auto;
+  width: 200px;
+}
+.card .body ul.features li {
+  line-height: 25px;
+}
+.card .body ul.features li .fa {
+  width: 20px;
+}
+.card .pay.btn {
+	padding: 10px 60px;
+}
+ .card.green {
+  background-color: #2ca410;
+}
+.card.green .pay.btn {
+  background-color: #2ca410;
+}
+.card.green .pay.btn:hover {
+  background-color: #34b513;
+}
+.card.green li i {
+  color: #2ca410;
+}
+.card.red {
+  background-color: #c92115;
+}
+.card.red .pay.btn {
+  background-color: #c92115;
+}
+.card.red .pay.btn:hover {
+  background-color: #e02316;
+}
+.card.red li.important {
+  color: #c92115;
+}
+.card.red li i {
+  color: #c92115;
+}
+.card.blue {
+  background-color: #0e7caa;
+}
+.card.blue .pay.btn {
+  background-color: #0e7caa;
+}
+ .card.blue .pay.btn:hover {
+  background-color: #118ec2;
+}
+ .card.blue li.important {
+  color: #0e7caa;
+}
+.card.blue li i {
+  color: #0e7caa;
+}
+.card.suggested {
+  position: relative;
+  //z-index: 20;
+  margin-top: 17px !important;
+  margin-left: -35px !important;
+  margin-right: -35px !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.card.suggested h3 {
+  line-height: 70px;
+  font-size: 35px;
+}
+.card.suggested .body .price {
+  font-size: 88px !important;
+}
+ .card.suggested .body .pay.btn {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+ .card.suggested .body .features {
+  padding-bottom: 10px;
+}
+ .col-xs-4 .card {
+  margin: 50px -20px 0 -20px;
+}
+
+		</style>
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css">
+		<style type='text/css'>
+		#nav-top{
+			height:60px;
+			padding-top:5px;
+			box-shadow: #aaa 1px 1px 30px;
+		}
+		.nav-center{
+			width:80%;
+			margin:0 auto;
+		}
+		.nav-title{
+			font-size:30px;
+			line-height:50px;
+		}
+		.nav-reg{
+			line-height:50px;
+		}
+		.fleft{
+			float:left;
+		}
+		.fright{
+			float:right;
+		}
+		.menu{
+			border:#ccc solid 1px;
+		}
+		.menu .cpy{
+			color:#aaa;
+		}
+		.menu-s{
+			text-align:center;
+			border-bottom:#aaa solid 1px;
+		}
+		
+		.menu-s:hover{
+			//color: #0a8;
+			cursor:pointer;
+			background:#ccc;
+		}
+		.menu .selected{
+			color:#fff;
+			background:#44b549;
+		}
+		
+		#content{
+			margin-top:50px;
+		}
+		
+		#content .content{
+			padding:0 30px;
+		}
+		#footer{
+			
+			width:100%;
+			background:rgb(238,238,238);
+			height:50px;
+			line-height:50px;
+			font-size:15px;
+			text-align:center;
+		}
+		
+		.popup-title-close:hover{
+			color:#f00;
+		}
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+		<script src="__JS__/menu.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'>
+		$(function(){
+			var orderNo = '-';
+			function createOrder(type, f) {
+				$.getJSON('{:U('/Home/WxPay/index')}' + '?type=' + type, r => {
+					f(r);
+				});
+			}
+			var mask=$('.mask'),
+				container=$('.container-popup'),
+				title=$('.container-popup').find('.popup-title-text'),
+				body=$('.container-popup>.popup-body');
+				popup=new pop(mask,container,title,body);
+			$('.popup-title-close').click(function(){
+				popup.hide();
+			});
+			
+			$('.pay').click(function(){
+				var type = $(this).attr('data-type');
+				//目前写死，后续方便扩展
+				var XF = [{price:15,title: '月份会员', pay_type: 'wx'},{price: 40, title: '季度会员',pay_type: 'wx'},{price: 115, title: '年费会员',pay_type: 'wx'}];
+				var cPay = XF[type] || XF[0];
+				
+				createOrder(type, r => {
+					orderNo = r.out_trade_no;
+					var pinfo = "<p class='text-center'>充值套餐: <font color=#f00>"+cPay.title+"</font>&nbsp;&nbsp;&nbsp;金额: <font color=#f00>￥"+cPay.price+"</font></p>";
+						pinfo += "<p class='text-center'>订单号: <font color=#00f>"+(r.out_trade_no||'-')+"</font> &nbsp;&nbsp;&nbsp;&nbsp;充值账户: <font color=#00f>"+r.uid+"</font></p>";
+						pinfo += "<hr/><div class='text-center' style='background:rgb(30,170,59);color:#fff;padding: 10px 0 0 0;'><img width='250px' src='__IMG__/wx_pay.png' /><img width='250px' height='250px' src='"+r.url_data+"' /><p>使用微信扫一扫</p></div>";
+					var pophtml =pinfo+"<p class='text-center payStatus' style='color:#f00;font-size:18px;'></p><hr><div style='text-align:center'><button class='button bg-main cpay'>我已支付</button></div>";	
+					popup.setTitle('支付订单').setBody(pophtml).setCss({width: '400px',height: '500px'}).show();
+				});
+				
+			});
+			
+			//弹出层事件
+			//查询支付状态，确认是否支付成功！
+			$('.popup-body').on('click','.cpay',function(){
+				$('.popup-body').find('.payStatus').html('<font color=#888>正在查询支付结果中。。。</font>')
+				$.getJSON("{:U('Home/User/payStatus')}?id=" + orderNo,function(r){
+					if(r.status==1){
+						setTimeout(function(){
+							location.href='{:U('Home/User/index')}';
+						},3000);
+					}
+					$('.popup-body').find('.payStatus').html(r.msg);
+				});
+			});
+			
+		});
+		</script>
+	</head>
+<body>
+  <!---导航栏-->
+  <div id='nav-top'>
+		<div class='nav-center'>
+			<div class='nav-logo hidden-l fleft'><img src='__IMG__/logo.png' width=50px height=50px /></div>
+			<div class='nav-title fleft'>__APPNAME__</div>
+			<div class='nav-reg fright'><font color=#f00>{$user}</font>,您好！[<a href=#>退出</a>]</div>
+		</div>
+  </div>
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<dl class='menu'>
+						<dd class='menu-s'><a href={:U('Home/User/index')} class='icon-home'>开始</a></dd>
+						<dd class='menu-s selected'><span class='icon-cny'>充值续费</span></dd>
+						<dd class='menu-s'><a href={:U('Home/User/user')} class='icon-user'>账号信息</a></dd>
+						<dd class='menu-s'><a href={:U('Home/User/logout')} class='icon-sign-out'>退出登录</a></dd>
+						<dd class='cpy text-center'>
+							
+							<p>__APPNAME__ __YEAR__</p>
+						
+						</dd>
+					</dl>
+				</div>
+				
+				<div class='x10 content'>
+				<!---选项卡标签start--->
+				<div class="tab border-main">
+    <div class="tab-head">
+        <strong>充值续费</strong>
+        <ul class="tab-nav">
+            <li class="active">
+                <a href="#tab-start">选择充值套餐</a>
+            </li>
+            <li>
+                <a href="{:U('Home/User/payhistory')}">我的充值记录</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="tab-body">
+        <div class="tab-panel active" id="tab-start">
+					
+					
+						<!-------选择套餐---->
+					<div class="plans row">
+						<div class="x4">
+						<div class="card blue">
+						  <h3>月费会员</h3>
+						  <div class="body">
+							<div class="price-box">
+							  <div class="price ng-binding"><small>￥</small>15
+							  </div>
+							  <div class="duration">30天</div><a href="#" class="pay btn btn-default" data-type="0">立即购买</a>
+							</div>
+							<ul class="features">
+							  <li><i class="fa fa-check"></i><span tooltip="可将任何网站加入规则列表" class="ng-scope">不限制使用的域名</span>
+							  </li>
+							  <li><i class="fa fa-check"></i><span tooltip="开启后，上任何网站都使用红杏" class="ng-scope">开放“一直”模式</span></li>
+							  <li>&nbsp;</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+					  <div class="x4">
+						<div class="card green suggested">
+						  <h3>季度会员</h3>
+						  <div class="body">
+							<div class="price-box">
+							  <div class="price ng-binding"><small>￥</small>40
+							  </div>
+							  <div class="duration">90天</div><a href="#" class="pay btn btn-default" data-type="1">立即购买</a>
+							</div>
+							<ul class="features">
+							  <li><i class="fa fa-check"></i><span>不限制使用的域名</span>
+							  </li>
+							  <li><i class="fa fa-check"></i><span>限量专属服务器</span>
+							  </li>
+							  <li class="important"><i class="fa fa-check"></i><span>免费赠送安卓VPN</span>
+							  </li><li>&nbsp;</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+					  <div class="x4">
+						<div class="card red">
+						  <div class="corner"></div>
+						  <h3>年费会员</h3>
+						  <div class="body">
+							<div class="price-box">
+							  <div class="price ng-binding"><small>￥</small>115
+							  </div>
+							  <div class="duration">365天</div><a href="#" class="pay btn btn-default" data-type="2">立即购买</a>
+							</div>
+							<ul class="features">
+							  <li><i class="fa fa-check"></i><span tooltip="可将任何网站加入规则列表" class="ng-scope">不限制使用的域名</span>
+							  </li>
+							  <li><i class="fa fa-check"></i><span>限量专属服务器</span>
+							  </li>
+							  <li><i class="fa fa-check"></i><span>免费赠送安卓VPN</span>
+							  </li>
+							  <li>&nbsp;</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+					  
+					</div>
+					<!-------选择套餐---->
+				</div>
+    </div>
+</div>
+				
+				
+					<!---表单开始--->
+					<form name="alipayment" action="{:U('Home/User/wxpayapi')}" method="post" target="_blank" hidden>
+            <div id="body" style="clear:left">
+               <dl class="content">
+									<input size='30' name="pid" data-name="商品id，非必须">
+									<input size="30" name="WIDout_trade_no" data-name="订单号，要唯一">
+									<input size="30" name="WIDsubject" data-name="订单名称">
+									<input size="30" name="WIDtotal_fee" data-name="订单金额">
+									<input size="30" name="WIDbody" data-name="订单描述">
+									<input size="30" name="WIDshow_url" data-name="商品展示地址" value=''>
+               </dl>
+            </div>
+					</form>
+		<!---表单结束-->
+				</div>
+			</div>
+		</div>
+	</div>
+		
+<!---全局遮罩层-->
+  <div class='mask' style='position:fixed;top:0;width:100%;height:100%;background:rgba(0,0,0,0.6);display:none;'>
+		  <!---弹出层--->
+		<div class='container-popup' style='position:relative;width:300px;display:none;z-index:999'>
+		<div class='popup-title' style='width:100%;height: 38px;color:#fff;padding:0 10px;line-height: 38px;position: relative;background:rgb(51,51,51);background: -webkit-gradient(linear,left top,right top,from(#000),to(#767676));border-bottom: 1px solid #d1d6dd;'>
+		<span class='popup-title-text'>标题</span>
+		<span class='popup-title-close icon-times' style='float:right;cursor:pointer;'></span>
+		</div>
+		<div class='popup-body' style='background:#fff;color:#000;min-height:100px;padding:10px'>
+		</div>
+		</div>
+  </div>
+ <!---footer--->
+  <div id='footer'>
+		__FOOTER__
+  </div>
+	
+		
+	</body>
+</html>

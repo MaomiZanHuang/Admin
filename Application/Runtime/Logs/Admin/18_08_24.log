@@ -1,0 +1,2020 @@
+[ 2018-08-24T00:03:10+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2018-08-24T00:03:26+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002167s ]
+
+[ 2018-08-24T00:03:30+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0024s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0003s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0003s ]
+
+[ 2018-08-24T00:04:03+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003845s ]
+
+[ 2018-08-24T00:04:07+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0007s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0004s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0004s ]
+
+[ 2018-08-24T00:04:08+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2018-08-24T00:05:54+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2018-08-24T00:05:56+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0008s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0003s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0003s ]
+
+[ 2018-08-24T00:05:57+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2018-08-24T00:06:33+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2018-08-24T00:06:35+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0007s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0004s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0004s ]
+
+[ 2018-08-24T00:06:35+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0021s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0003s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0003s ]
+
+[ 2018-08-24T00:06:37+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2018-08-24T00:07:52+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002700s ]
+
+[ 2018-08-24T00:07:53+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0008s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0011s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0005s ]
+
+[ 2018-08-24T00:07:55+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2018-08-24T00:08:58+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2018-08-24T00:09:00+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0037s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0004s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0003s ]
+
+[ 2018-08-24T00:09:02+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2018-08-24T00:09:08+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2018-08-24T00:09:09+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0008s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0008s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0005s ]
+
+[ 2018-08-24T00:09:11+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2018-08-24T00:09:47+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004847s ]
+
+[ 2018-08-24T00:09:48+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0007s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0003s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0003s ]
+
+[ 2018-08-24T00:09:51+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2018-08-24T00:10:49+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2018-08-24T00:11:03+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2018-08-24T00:11:04+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0007s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0005s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0005s ]
+
+[ 2018-08-24T00:11:06+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006549s ]
+
+[ 2018-08-24T00:11:58+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2018-08-24T00:11:59+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0008s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0004s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0004s ]
+
+[ 2018-08-24T00:12:00+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-08-24T00:13:49+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002059s ]
+
+[ 2018-08-24T00:13:50+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0006s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0003s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0004s ]
+
+[ 2018-08-24T00:13:52+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2018-08-24T15:04:31+08:00 ] ::1 /mzz/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000682s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8] Undefined variable: userCount D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 24 行.
+NOTIC: [8] Undefined variable: incomeList D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 25 行.
+NOTIC: [8] Undefined variable: user D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 134 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 147 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 147 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 148 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 148 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 149 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 149 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 150 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 150 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 152 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 152 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Undefined variable: totalIncome D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005141s ]
+
+[ 2018-08-24T15:04:34+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+
+[ 2018-08-24T15:04:36+08:00 ] ::1 /mzz/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: error D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 171 行.
+NOTIC: [8] Undefined variable: error D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2018-08-24T15:04:43+08:00 ] ::1 /mzz/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+ERR: 1146:Table 'zanhuang.user_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_admin`
+ERR: 1146:Table 'zanhuang.user_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_admin`
+
+[ 2018-08-24T15:06:01+08:00 ] ::1 /mzz/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user_admin` [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2018-08-24T15:06:07+08:00 ] ::1 /mzz/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `user_admin` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `user_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_admin` WHERE ( user='telanx' and pwd='xnlaet2' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2018-08-24T15:06:30+08:00 ] ::1 /mzz/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `user_admin` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `user_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_admin` WHERE ( user='telanx' and pwd='xnalet2' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2018-08-24T15:06:31+08:00 ] ::1 /mzz/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: userCount D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 24 行.
+NOTIC: [8] Undefined variable: incomeList D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 25 行.
+NOTIC: [8] Undefined variable: user D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 134 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 147 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 147 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 148 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 148 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 149 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 149 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 150 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 150 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 152 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 152 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Undefined variable: totalIncome D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2018-08-24T15:06:33+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2018-08-24T15:06:35+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0007s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0004s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0003s ]
+
+[ 2018-08-24T15:06:38+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-08-24T15:53:41+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003919s ]
+
+[ 2018-08-24T15:54:15+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+
+[ 2018-08-24T15:54:33+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+
+[ 2018-08-24T15:55:00+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2018-08-24T15:55:49+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2018-08-24T15:55:52+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0011s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0004s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0004s ]
+
+[ 2018-08-24T15:55:54+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2018-08-24T15:57:09+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2018-08-24T15:57:28+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005049s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001859s ]
+
+[ 2018-08-24T15:57:51+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005229s ]
+
+[ 2018-08-24T15:58:42+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2018-08-24T16:02:55+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+
+[ 2018-08-24T16:03:11+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004119s ]
+
+[ 2018-08-24T16:03:14+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0008s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0004s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0005s ]
+
+[ 2018-08-24T16:03:19+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002284s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2018-08-24T16:03:44+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2018-08-24T16:03:53+08:00 ] ::1 /mzz/index.php/Admin/Goods/updateSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+ERR: 1146:Table 'zanhuang.sepcs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sepcs`
+ERR: 1146:Table 'zanhuang.sepcs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sepcs`
+
+[ 2018-08-24T16:04:31+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003342s ]
+
+[ 2018-08-24T16:04:34+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+
+[ 2018-08-24T16:10:07+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+
+[ 2018-08-24T16:11:08+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0018s ]
+ERR: Think\Model:del方法不存在！
+
+[ 2018-08-24T16:11:34+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0014s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `goods_spec` WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `goods_spec` WHERE ( id =  )
+
+[ 2018-08-24T16:12:02+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0024s ]
+SQL: DELETE FROM `goods_spec` WHERE ( id='' ) [ RunTime:0.0442s ]
+
+[ 2018-08-24T16:12:18+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2018-08-24T16:12:22+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0006s ]
+SQL: DELETE FROM `goods_spec` WHERE ( id='' ) [ RunTime:0.0002s ]
+
+[ 2018-08-24T16:12:55+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004042s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: DELETE FROM `goods_spec` WHERE ( id='' ) [ RunTime:0.0003s ]
+
+[ 2018-08-24T16:13:46+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0008s ]
+SQL: DELETE FROM `goods_spec` WHERE ( id='52' ) [ RunTime:0.0074s ]
+
+[ 2018-08-24T16:14:08+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003924s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2018-08-24T16:14:23+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005697s ]
+
+[ 2018-08-24T16:14:26+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0005s ]
+SQL: DELETE FROM `goods_spec` WHERE ( id='53' ) [ RunTime:0.0004s ]
+
+[ 2018-08-24T16:14:55+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2018-08-24T16:14:59+08:00 ] ::1 /mzz/index.php/Admin/Goods/delSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: DELETE FROM `goods_spec` WHERE ( id='54' ) [ RunTime:0.0003s ]
+
+[ 2018-08-24T16:15:00+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2018-08-24T16:15:39+08:00 ] ::1 /mzz/index.php/Admin/Goods/addSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 218 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 219 行.
+NOTIC: [8] Use of undefined constant amt - assumed 'amt' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Use of undefined constant rmb - assumed 'rmb' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 221 行.
+NOTIC: [8] Use of undefined constant points - assumed 'points' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 222 行.
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0017s ]
+SQL: INSERT INTO `goods_spec` (`goods_id`,`title`,`amt`,`rmb`,`points`) VALUES ('','10000赞','100','0.01','200') [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 227 行.
+
+[ 2018-08-24T16:15:42+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: goods_id D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7216699ab9162570ce9adefc5532e453.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2018-08-24T16:17:56+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2018-08-24T16:18:01+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-08-24T16:18:03+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0006s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0003s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0004s ]
+
+[ 2018-08-24T16:18:05+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2018-08-24T16:18:08+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2018-08-24T16:18:08+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2018-08-24T16:18:19+08:00 ] ::1 /mzz/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 248 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 250 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 251 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 252 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 253 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 255 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 256 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2018-08-24T16:18:20+08:00 ] ::1 /mzz/index.php/Admin/Admin/search_handler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+SQL: SHOW COLUMNS FROM `goods_item` [ RunTime:0.0007s ]
+SQL: select count(*) from goods_item where title like '%%'  [ RunTime:0.0003s ]
+SQL: select id, cata_id, goods_id, title, logo, pics, detail, sort_index, online, api_extra_params, api_fixed_params,api_host, api_method, business_cata from goods_item where title like '%%' limit 0,20 [ RunTime:0.0005s ]
+
+[ 2018-08-24T16:18:23+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2018-08-24T16:18:33+08:00 ] ::1 /mzz/index.php/Admin/Goods/addSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 219 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Use of undefined constant amt - assumed 'amt' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 221 行.
+NOTIC: [8] Use of undefined constant rmb - assumed 'rmb' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 222 行.
+NOTIC: [8] Use of undefined constant points - assumed 'points' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 223 行.
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0009s ]
+SQL: INSERT INTO `goods_spec` (`goods_id`,`title`,`amt`,`rmb`,`points`) VALUES ('1001','1000赞','100','0.02','20') [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 228 行.
+
+[ 2018-08-24T16:18:36+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2018-08-24T16:18:46+08:00 ] ::1 /mzz/index.php/Admin/Goods/updateSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+ERR: 1146:Table 'zanhuang.sepcs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sepcs`
+ERR: 1146:Table 'zanhuang.sepcs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sepcs`
+
+[ 2018-08-24T16:20:04+08:00 ] ::1 /mzz/index.php/Admin/Goods/updateSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+ERR: 1146:Table 'zanhuang.sepcs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sepcs`
+ERR: 1146:Table 'zanhuang.sepcs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sepcs`
+
+[ 2018-08-24T16:22:23+08:00 ] ::1 /mzz/index.php/Admin/Goods/updateSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0009s ]
+SQL: UPDATE `goods_spec` SET `id`='68',`title`='1000赞',`amt`='100',`rmb`='0.02',`points`='200' WHERE ( id='68' ) [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 245 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 246 行.
+
+[ 2018-08-24T16:22:54+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006433s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2018-08-24T16:22:59+08:00 ] ::1 /mzz/index.php/Admin/Goods/updateSpec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0018s ]
+SQL: UPDATE `goods_spec` SET `id`='68',`title`='1000赞',`amt`='100',`rmb`='0.2',`points`='200' WHERE ( id='68' ) [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 245 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Admin\Controller\GoodsController.class.php 第 246 行.
+
+[ 2018-08-24T16:23:00+08:00 ] ::1 /mzz/index.php/Admin/Goods/specs.html?goods_id=1001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_spec` WHERE ( goods_id = '1001' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+

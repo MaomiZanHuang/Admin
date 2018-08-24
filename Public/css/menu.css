@@ -1,0 +1,77 @@
+/**DOM整体结构样式***/
+*,body{
+	padding:0;
+	margin:0;
+	font-family:'微软雅黑';
+}
+
+#nav-top{
+	height:60px;
+	padding-top:5px;
+	box-shadow: #aaa 1px 1px 30px;
+}
+.nav-center{
+	width:80%;
+	margin:0 auto;
+}
+.nav-title{
+	font-size:30px;
+	line-height:50px;
+}
+.nav-reg{
+	line-height:50px;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+
+
+#content{
+	margin-top:50px;
+	margin-bottom:60px;
+}
+#content .content{
+	padding:0 30px;
+}
+
+
+#footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background:rgb(238,238,238);
+	height:50px;
+	line-height:50px;
+	font-size:15px;
+	text-align:center;
+}
+
+/*****Menu菜单样式***/
+.menu{
+	border:#ccc solid 1px;
+}
+.menu .cpy{
+	color:#aaa;
+}
+.menu-s{
+	text-align:center;
+	border-bottom:#aaa solid 1px;
+}
+.menu-t{
+	text-align:center;
+	color:#aaa;
+}
+.menu-s:hover{
+	//color: #0a8;
+	cursor:pointer;
+	background:#ccc;
+}
+.menu .selected{
+	background:#44b549;
+}
+.menu .selected>a{
+	color:#fff;
+}

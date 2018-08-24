@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|用户后台</title>
+    <meta name="keywords" content="__APPNAME__;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css">
+		<style type='text/css'>
+		#nav-top{
+			height:60px;
+			padding-top:5px;
+			box-shadow: #aaa 1px 1px 30px;
+		}
+		.nav-center{
+			width:80%;
+			margin:0 auto;
+		}
+		.nav-title{
+			font-size:30px;
+			line-height:50px;
+		}
+		.nav-reg{
+			line-height:50px;
+		}
+		.fleft{
+			float:left;
+		}
+		.fright{
+			float:right;
+		}
+		.menu{
+			border:#ccc solid 1px;
+		}
+		.menu .cpy{
+			color:#aaa;
+		}
+		.menu-s{
+			text-align:center;
+			border-bottom:#aaa solid 1px;
+		}
+		
+		.menu-s:hover{
+			//color: #0a8;
+			cursor:pointer;
+			background:#ccc;
+		}
+		.menu .selected{
+			color:#fff;
+			background:#44b549;
+		}
+		
+		#content{
+			margin-top:50px;
+		}
+		
+		#content .content{
+			padding:0 30px;
+		}
+		#footer{
+			position:fixed;
+			bottom:0;
+			width:100%;
+			background:rgb(238,238,238);
+			height:50px;
+			line-height:50px;
+			font-size:15px;
+			text-align:center;
+		}
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'>
+		$(function(){
+			var status = {$user.status};
+			$('.content').children('p:eq('+status+')').removeClass('hidden');
+		});
+		</script>
+	</head>
+<body>
+  <!---导航栏-->
+  <div id='nav-top'>
+		<div class='nav-center'>
+			<div class='nav-logo hidden-l fleft'><img src='__LOGO__' width=50px height=50px /></div>
+			<div class='nav-title fleft'>__APPNAME__</div>
+			<div class='nav-reg fright'><font color=#f00>{$user.user}</font>,您好！[<a href="{:U('Home/User/logout')}">退出</a>]</div>
+		</div>
+  </div>
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<dl class='menu'>
+						<dd class='menu-s selected'><span class='icon-home'>开始</span></dd>
+						<dd class='menu-s'><a href={:U('Home/User/pay')} class='icon-cny'>充值续费</a></dd>
+						<dd class='menu-s'><a href={:U('Home/User/user')} class='icon-user'>账号信息</a></dd>
+						<dd class='menu-s'><a href={:U('Home/User/logout')} class='icon-sign-out'>退出登录</a></dd>
+						<dd class='cpy text-center'>
+							<p>__APPNAME__ __YEAR__</p>
+						</dd>
+					</dl>
+				</div>
+				
+				<div class='x10 content'>
+					<h3>欢迎使用__APPNAME__！</h3>
+					<!---未激活提示激活--->
+					<br>
+					<p class="hidden text-dot">您的账号尚未激活，请选择充值激活或联系客服免费试用！</p>
+					<!---已激活提示到期时间-->
+					<p class="hidden text-main">您的会员账号：<b class='text-yellow'>{$user.user}</b><br>到期时间:<b class='text-yellow'>{$user.expiredate}</b></p>
+					
+					<!---已过期提示尽快续费-->
+					<p class="hidden text-sub">您的会员已过期，您可以选择[<a href="{:U('Home/User/pay')}">充值续费</a>]继续使用!</p>
+					
+					<br/><br/><br/>
+					<h3>安卓VPN</h3>
+					<br/>
+					<h3>
+						<span class="tag bg-sub">百度网盘</span> <a class="tag bg-yellow" href="https://pan.baidu.com/s/1eSTTJEi" target="_blank">https://pan.baidu.com/s/1eSTTJEi</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="tag bg-sub">提取码</span> <span class="tag bg-yellow">{$getcode}</span>
+					</h3>
+					
+					<br/>
+					<h4>使用说明</h4>
+					<br/>
+					<p>安装后打开后点击GO进行连接</p>
+					<br/>
+					<p class="text-gray">注:目前安卓VPN仅对季度会员及以上开放</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+				
+ <!---footer--->
+  <div id='footer'>
+		__FOOTER__
+  </div>
+
+		
+	</body>
+</html>

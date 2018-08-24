@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|管理后台</title>
+    <meta name="keywords" content="__APPNAME__;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css" />
+		<link rel="stylesheet" href="__CSS__/menu.css" /><!--***自己的css样式***--><style type='text/css'>
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'>
+		$(function(){
+			$('select[name=country]').change(function(){
+					$('#flag').attr('src','__IMG__/flags/'+$(this).val()+'.png');
+			});
+		});
+		</script>
+	</head>
+<body>
+  <!---导航栏-->
+	<!--此处要传入当前登录用户的用户名-->
+  <include file="./Tpl/header.html" user="{$user.user}" />
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<!--此处要传入当前选中菜单的class值-->
+					<include file="./Tpl/admin/menu.html" selected="node" />
+				</div>
+				
+				<div class='x10 content'>
+					
+					
+					<div class="tab">
+						<div class="tab-head">
+						<strong>代理服务器</strong>
+						<ul class="tab-nav">
+						<li><a href="{:U('Admin/Node/index')}">节点列表</a> </li>
+						<li class="active"><a>添加节点</a> </li>
+						</ul>
+						</div>
+						
+						<div class="tab-body">
+						<if condition="$msg neq null">
+							<p class="notice bg-blue">{$msg}</p>
+						</if>
+						<div class="tab-panel active">
+							<!-- 添加节点Form开始 -->
+								<form method="post" class="form-x form-auto" name="addform">
+									<div class="form-group">
+										<div class="label">
+											<label>节点名</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input" data-validate="required:必填" name="name" size="30" placeholder="请输入节点名称">
+											
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label>所属地区</label>
+										</div>
+										<div class="field">
+											<select name="country" class="input">
+												<option value="us">美国</option>
+												<option value="jp">日本</option>
+												<option value="hk">香港</option>
+												<option value="mc">澳门</option>
+												<option value="sg">新加坡</option>
+												<option value="kr">韩国</option>
+												<option value="ca">加拿大</option>
+												<option value="tw">台湾</option>
+												<option value="en">英国</option>
+												<option value="other" selected>其它</option>
+											</select>
+											<img src="__IMG__/flags/other.png" id='flag' width=30px height=30px/>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="label">
+											<label>代理服务器地址</label>
+										</div>
+										<div class="field">
+											<select name="type" class="input">
+												<option value="HTTPS">https</option>
+												<option value="HTTP">http</option>
+												<option value="PROXY">proxy</option>
+												<option value="SOCKS5">socks5</option>
+											</select>
+											<input type="text" class="input" data-validate="required:必填" name="ip" size="30" placeholder="ip">
+											<input type="text" class="input" data-validate="required:必填" name="port" size="10" placeholder="端口">
+										</div>
+									</div>
+									<input type="text" name="status" hidden>
+									<div class="form-group">
+										<div class="label">
+											<label>认证账号</label>
+										</div>
+										<div class="field">
+											<input type="text" name="user" class="input" placeholder="若无则无需填写">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label>认证密码</label>
+										</div>
+										<div class="field">
+											<input type="text" name="pwd" class="input" placeholder="若无则无需填写">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label>备注</label>
+										</div>
+										<div class="field">
+											<input type="text" name="remark" class="input" placeholder="备注节点信息">
+										</div>
+									</div>
+									<div class="form-button">
+										<button class="button bg-sub icon-plus btn-add" type="submit">添加</button>
+									</div>
+								</form>
+							<!-- 添加节点Form结束 -->
+						</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+		
+ <!---footer--->
+	<include file="./Tpl/footer.html" />	
+	</body>
+</html>

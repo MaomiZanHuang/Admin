@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" href="__LIB__/pintuer/pintuer.css"/>
+<style type='text/css'>
+form{
+	position:fixed;
+	top:30%;
+	left:40%;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<form action="{:U('Home/Index/sess')}" method="POST">
+		<div class="form-group">
+		<div class="label">
+			<label for="username">
+				账号</label>
+		</div>
+		<div class="field">
+			<input type="text" class="input" id="user" name="user" size="30" placeholder="手机/邮箱/账号" />
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="label">
+			<label for="username">
+				口令</label>
+		</div>
+		<div class="field">
+			<input type="text" class="input" id="token" name="token" size="30" placeholder="输入口令" />
+		</div>
+	</div>
+	<div class="form-button">
+		<button class="button bg-yellow" type="submit">
+			清除缓存</button>
+	</div>
+	<if condition="($msg neq null)">
+		<div class="alert alert-yellow">
+			<span class="close rotate-hover"></span>
+			<strong>提示：</strong>{$msg}
+		</div>
+	</if>
+	</form>
+</div>
+</body>
+</html>

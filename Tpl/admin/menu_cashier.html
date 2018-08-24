@@ -1,0 +1,7 @@
+<dl class='menu'>
+	<dd class='menu-s index <if condition="([selected] eq index)">selected</if>'><a href={:U('Cashier/Index/index')} class='icon-home'>开始</a></dd>					
+	<dd class='menu-s user <if condition="([selected] eq user)">selected</if>'><a href={:U('Cashier/User/index')} class='icon-users'>用户管理</a></dd>
+	<dd class='menu-s cash <if condition="([selected] eq cash)">selected</if>'><a href={:U('Cashier/Cash/index')} class='icon-cny'>充值续费</a></dd>
+	<dd class='menu-s'><a href={:U('Admin/Login/logout')} class='icon-sign-out'>退出登录</a></dd>					
+	<dd class='cpy text-center'><p>__MENU_TIPS_ADMIN__</p></dd>
+</dl>

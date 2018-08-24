@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel='stylesheet' href='__LIB__/pintuer/pintuer.css' />
+</head>
+<body>
+<div class="text-center"> 
+	<font color=#f00>{$msg}</font>
+</div>
+<form method="post" class="form-x" action="{:U('Cashier/User/modify')}?user={$user.user}">
+<div class="form-group">
+	<div class="label">
+		<label for="username">账号</label>
+	</div>
+	<div class="field">
+		<input name='user' class="input" value='{$user.user}'/>
+	</div>
+</div>
+
+<div class="form-group">
+	<div class="label">
+		<label for="password">密码</label>
+	</div>
+	<div class="field">
+		<input type="text" class="input" id="password" name="pwd" size="30" placeholder="请输入密码" value="{$user.pwd}">
+	</div>
+</div>
+
+<div class="form-group">
+	<div class="label">
+		<label for="email">邮箱</label>
+	</div>
+	<div class="field">
+		<input type="email" class="input" name="email" size="30" placeholder="用于取回密码" value="{$user.email}">
+	</div>
+</div>
+<div class="form-group">
+	<div class='label'>
+		<strong>会员状态</strong>
+	</div>
+	<div class="field">
+		<label><input type='radio' name='status'  value=1 {$user['status']==1?"checked":""}>正常</label>
+		<label><input type='radio' name='status'  value=0 {$user['status']==0?"checked":""}>未激活</label>
+		<label><input type='radio' name='status' value=2 {$user['status']==2?"checked":""}>已过期</label>
+	</div>
+</div>
+<div class="form-group">
+	<div class="label">
+		<strong>sess</strong>
+	</div>
+	<div class="field">
+		<input type="text" class="input" name="sess" value="{$user.sess}">
+	</div>
+</div>
+<div class="form-button">
+	<button class="button bg-main" type="submit">提交</button>
+</div>
+
+</form>
+
+</body>
+</html>
