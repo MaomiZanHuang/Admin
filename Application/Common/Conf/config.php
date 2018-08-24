@@ -6,11 +6,11 @@ return array(
 	'DEFAULT_FILTER'        =>  'strip_tags',
 	//模板替换
 	'TMPL_PARSE_STRING'=>array(
-		'__APPNAME__'=>'云梯',
+		'__APPNAME__'=>'拇指赞',
 		'__LOGO__'=>$APP.'/Public/img/logo.png',
 		'__YEAR__'=>'2018',
-		'__FOOTER__'=>'&#169;云梯 2018',
-		'__MENU_TIPS_ADMIN__'=>'云梯后台管理',
+		'__FOOTER__'=>'&#169;拇指赞 2018',
+		'__MENU_TIPS_ADMIN__'=>'拇指赞后台管理',
 		'__MENU_TIPS_USER__'=>'充值请联系客服',
 		'__TEST_URL__'=>'/telanx/test.php',
 		
