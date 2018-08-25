@@ -208,7 +208,7 @@
 				}
 				//获取用户名
 				var user = selList.parent().parent().attr('data-id');
-				window.open("{:U('/Admin/Goods/modify')}?id=" +user);
+				window.open("{:U('Admin/Goods/modify')}?id=" +user);
 			});
 
 			//修改价格(不可批量操作)
@@ -224,7 +224,7 @@
 				}
 				//获取用户名
 				var goods_id = selList.parent().next().next().html();
-				popup.setTitle("修改价格").setCss({width:'800px',height:'600px'}).setBody("<iframe src='{:U('Admin/Goods/specs')}?goods_id="+goods_id+"' width=100% height=100%></iframe>").show();
+				popup.setTitle("修改价格").setCss({width:'800px',height:'600px'}).setBody("<iframe src='{:U('Admin/Goods/specs')}&goods_id="+goods_id+"' width=100% height=100%></iframe>").show();
 			});
 		});
 		</script>

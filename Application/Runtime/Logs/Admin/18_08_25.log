@@ -1,0 +1,84 @@
+[ 2018-08-25T16:55:16+08:00 ] ::1 /mzz/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-08-25T16:55:18+08:00 ] ::1 /mzz/index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: error D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 171 行.
+NOTIC: [8] Undefined variable: error D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-08-25T16:55:24+08:00 ] ::1 /mzz/index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-08-25T16:56:22+08:00 ] ::1 /mzz/index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+ERR: SQLSTATE[HY000] [1130] Host '163.125.23.79' is not allowed to connect to this MySQL server
+
+[ 2018-08-25T16:56:26+08:00 ] ::1 /mzz/index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+ERR: SQLSTATE[HY000] [1130] Host '163.125.23.119' is not allowed to connect to this MySQL server
+
+[ 2018-08-25T16:56:29+08:00 ] ::1 /mzz/index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+ERR: SQLSTATE[HY000] [1130] Host '163.125.23.119' is not allowed to connect to this MySQL server
+
+[ 2018-08-25T16:58:46+08:00 ] ::1 /mzz/index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+ERR: SQLSTATE[HY000] [1130] Host '163.125.23.177' is not allowed to connect to this MySQL server
+
