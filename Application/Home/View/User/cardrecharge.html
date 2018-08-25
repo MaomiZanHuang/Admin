@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>__APPNAME__|用户后台</title>
+    <meta name="keywords" content="__APPNAME__;VPN" />
+    <meta name="description" content="翻墙;VPN" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css">
+		<style type='text/css'>
+		#nav-top{
+			height:60px;
+			padding-top:5px;
+			box-shadow: #aaa 1px 1px 30px;
+		}
+		.nav-center{
+			width:80%;
+			margin:0 auto;
+		}
+		.nav-title{
+			font-size:30px;
+			line-height:50px;
+		}
+		.nav-reg{
+			line-height:50px;
+		}
+		.fleft{
+			float:left;
+		}
+		.fright{
+			float:right;
+		}
+		.menu{
+			border:#ccc solid 1px;
+		}
+		.menu .cpy{
+			color:#aaa;
+		}
+		.menu-s{
+			text-align:center;
+			border-bottom:#aaa solid 1px;
+		}
+		
+		.menu-s:hover{
+			//color: #0a8;
+			cursor:pointer;
+			background:#ccc;
+		}
+		.menu .selected{
+			color:#fff;
+			background:#44b549;
+		}
+		
+		#content{
+			margin-top:50px;
+		}
+		
+		#content .content{
+			padding:0 30px;
+		}
+		#footer{
+			
+			width:100%;
+			background:rgb(238,238,238);
+			height:50px;
+			line-height:50px;
+			font-size:15px;
+			text-align:center;
+		}
+		
+		.popup-title-close:hover{
+			color:#f00;
+		}
+
+		.pay-way {
+			line-height: 30px;
+		}
+		</style>
+    <script src="__LIB__/pintuer/jquery.js"></script>
+    <script src="__LIB__/pintuer/pintuer.js"></script>
+		<script src="__JS__/menu.js"></script>
+    <!--[if lt IE 8]>
+		<script src="__LIB__/pintuer/respond.js"></script>
+		<![endif]-->
+		<script type='text/javascript'>
+		$(function(){	
+			var capatchaDom = $('.capatcha');
+			var capatchaSrc = capatchaDom.attr('src');
+			capatchaDom.click(function(e){
+				$(this).attr('src', capatchaSrc + '?t='+Math.random());
+			});
+			var showTip = function(msg) {
+				$('.mask>p').html(msg);
+				$('.mask').css({display: 'flex'});
+				setTimeout(function() {
+						$('.mask').hide();
+					}, 1500);
+			}
+			$('.charge').click(function(){
+				var vcode = $('input[name=vcode]').val();
+				var code = $('input[name=code]').val();
+				var user = $('input[name=user]').val();
+				if (code.trim()  === '') {
+					showTip('卡密不正确！');
+					return false;
+				}
+				if (vcode.trim() === '') {
+					showTip('验证码不正确！');
+					return false;
+				}
+				$.post("{:U('Home/User/charge')}",{code, vcode, user}, function(r) {
+					// 提示充值成功还是失败
+					showTip(r.msg);
+					if (r.code) {
+						setTimeout(function() {
+							location.reload();
+						}, 1500);
+					}
+					capatchaDom.attr('src', capatchaSrc + '?t='+Math.random());
+				})				
+			});
+		});
+		</script>
+	</head>
+<body>
+  <!---导航栏-->
+  <div id='nav-top'>
+		<div class='nav-center'>
+			<div class='nav-logo hidden-l fleft'><img src='__IMG__/logo.png' width=50px height=50px /></div>
+			<div class='nav-title fleft'>__APPNAME__</div>
+			<div class='nav-reg fright'><font color=#f00>{$user}</font>,您好！[<a href="{:U('Home/User/logout')}">退出</a>]</div>
+		</div>
+  </div>
+  
+  <!---中部内容区--->
+  <div id='content'>
+		<div class='nav-center'>
+			<div class='line'>
+				<div class='x2'>
+					<dl class='menu'>
+						<dd class='menu-s'><a href={:U('Home/User/index')} class='icon-home'>开始</a></dd>
+						<dd class='menu-s selected'><span class='icon-cny'>充值续费</span></dd>
+						<dd class='menu-s'><a href={:U('Home/User/user')} class='icon-user'>账号信息</a></dd>
+						<dd class='menu-s'><a href={:U('Home/User/logout')} class='icon-sign-out'>退出登录</a></dd>
+						<dd class='cpy text-center'>
+							
+							<p>__APPNAME__ __YEAR__</p>
+						
+						</dd>
+					</dl>
+				</div>
+				
+				<div class='x10 content'>
+				<!---选项卡标签start--->
+				<div class="tab border-main">
+    <div class="tab-head">
+        <strong>充值续费</strong>
+        <ul class="tab-nav">
+            <li class="active">
+                <a href="#tab-start">充值卡充值</a>
+            </li>
+            <li>
+                <a href="{:U('Home/User/payhistory')}">我的充值记录</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="tab-body">
+        <div class="tab-panel active" id="tab-start">
+					<div class="line">
+						<div class="x6">
+							<div class="panel">
+								<div class="panel-head">充 值</div>
+								<div class="panel-body">
+									<div class="form-x">
+										<div class="form-group">
+											<div class="label" for="inputEmail3" class="x2 control-label">充值账号</div>
+											<div class="x10">
+												<input name="user" class="input" value="{$user}" disabled>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="label" for="inputEmail3" class="x2 control-label">充值卡密</div>
+											<div class="x10">
+												<input name="code" class="input" placeholder="输入16位卡密激活码">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="label" for="inputPassword3" class="x2 control-label">验 证 码</div>
+											<div class="line">
+												<div class="x5">
+													<input name="vcode" class="input" placeholder="请输入验证码">
+												</div>
+												<div class="x5 fr">
+													<img class="capatcha" width="150px" height="35px" src="{:U('Home/User/verifycode')}">
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="x2-move">
+												<button class="button bg-main charge">充值</button>
+											</div>
+											</div>
+									</div>
+									<br/>
+									<p class="text-center text-danger">如有充值问题，请及时与客服联系！</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="x1-move x5">
+							<div class="panel">
+								<div class="panel-head">充值说明</div>
+								<div class="panel-body">
+									<b>套餐资费:</b>
+									<br/>
+									<ul class="pay-way">
+										<li>
+											月费￥15
+										</li>
+										<li>
+											季度￥40(<font class="text-red">送安卓App</font>)
+										</li>
+										<li>年费￥115(<font class="text-red">送安卓App</font>)</li>
+									</ul>
+
+									<a target="_blank" href="{:U('Home/User/index')}">>>下载安卓App</a>
+									<br/>
+									<br/>
+									<b>获取卡密激活码方式:</b>
+									<br/>
+									<ul class="pay-way">
+										<li><font class="text-gray">在线购买</font><br/>
+											<a href="http://www.cardbuy.net/list/2AH2u" target="_blank" class="button bg-main">立即购买</a>
+										</li>
+										<li><font class="text-gray">联系客服购买</font><br/>
+											QQ 1540811286 微信 1241818518
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    </div>
+</div>
+				
+				
+				</div>
+			</div>
+		</div>
+	</div>
+		
+<!---全局提示层-->
+	<div class='mask' style='
+		position: absolute;
+		top: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+		width: 100%;
+		height: 100%;
+		display: none'>
+		<p class="text-center" style="background:rgba(0, 0, 0, 0.6);min-width: 150px;border-radius:10px;padding: 10px;color: #fff;">哈哈</p>
+  </div>
+
+ <!---footer--->
+  <div id='footer'>
+		__FOOTER__
+  </div>
+	</body>
+</html>
