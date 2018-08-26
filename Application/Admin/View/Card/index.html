@@ -53,7 +53,7 @@
 		//点击搜索永远是获取第一页数据
 		$('form').submit(function(e){
 			e.preventDefault();
-			R_H($(e.target).find('#keywords').val(),$(e.target).find('#filter').val(),0);
+			R_H($(e.target).find('#keywords').val(),$(e.target).find('#filter').val(),1);
 			
 		});
 
