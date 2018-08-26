@@ -65,7 +65,7 @@
 				$('textarea').html('');
 			});
 			$('#import_card').click(function(){
-				var codes = $('textarea').html().split('\n').join(';');
+				var codes = $('textarea').val().split('\n').join(';');
 				var fee_type = $('select[name=fee_type]').val();
 				$.post("{:U('Admin/Card/add_ajax')}",{codes, fee_type},function(r) {
 					$(".import-result").html(r.msg);

@@ -82,3 +82,12 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
 ERR: SQLSTATE[HY000] [1130] Host '163.125.23.177' is not allowed to connect to this MySQL server
 
+[ 2018-08-25T18:12:30+08:00 ] ::1 /mzz/index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

@@ -129,7 +129,7 @@ class GoodsController extends Controller {
 		$model = M('goods_item');
 		if(count(I('post.'))>0) {
 			$data = I('post.');
-			if($model_user_user->where("user='".$data['user']."'")->save($data)){
+			if($model->where("user='".$data['user']."'")->save($data)){
 				$msg = "修改成功！";
 			} else {
 				$msg = "修改失败！";
