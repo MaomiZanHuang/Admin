@@ -22,18 +22,18 @@
 		<script type='text/javascript' src="//cdn.bootcss.com/echarts/3.6.1/echarts.min.js"></script>
 		<script type="text/javascript">
 		var userCount = {$userCount};
+		var todayIncome = {$todayIncome};
 		var incomeList = {$incomeList}.reverse();
 		var getCount = type => (userCount.filter(x => x.type === type)[0] || {count: 0}).count;
+		var getTodayCount = type => (todayIncome.filter(x => x.type === type)[0] || {income: 0}).income;
 		$(function() {
 			$('#vip-count').text(getCount('active'));
-			$('#user-count').text(userCount.map(x => x.count).reduce(function (prev, next) {
-				return (+prev) + (+next);
-			}, 0));
+			$('#user-count').text(getCount('total'));
 			var myChart = echarts.init(document.getElementById('user-report'));
 			// 指定图表的配置项和数据
 			var option = {
 				title : {
-						text: '用户人数报表',
+						text: '今日收入占比',
 						subtext: '',
 						x:'center'
 				},
@@ -44,18 +44,17 @@
 				legend: {
 						orient: 'vertical',
 						left: 'bottom',
-						data: ['VIP付费用户', '已过期用户', '未激活用户']
+						data: ['充值', '广告']
 				},
 				series : [
 						{
-								name: '用户比例构成',
+								name: '收入占比',
 								type: 'pie',
 								radius : '55%',
 								center: ['50%', '50%'],
 								data:[
-										{value: Number(getCount('active')), name:'VIP付费用户' + getCount('active')},
-										{value: Number(getCount('expired')), name:'已过期用户' + getCount('expired')},
-										{value: Number(getCount('unactive')), name:'未激活用户' + getCount('unactive')}
+										{value: Number(getTodayCount('charge')), name:'充值' + getTodayCount('charge')},
+										{value: Number(getTodayCount('adv')), name:'广告' + getTodayCount('adv')},
 								],
 								itemStyle: {
 										emphasis: {
@@ -78,7 +77,11 @@
 						text: '近12个月收入趋势',
 						x: 'center'
 					},
-					color: ['#3398DB'],
+					legend: {
+						data: ['充值', '广告'],
+						right: 0
+					},
+					// color: ['#3398DB'],
 					tooltip : {
 							trigger: 'axis',
 							axisPointer : {            // 坐标轴指示器，坐标轴触发有效
@@ -94,7 +97,7 @@
 					xAxis : [
 							{
 									type : 'category',
-									data : incomeList.map(x => x.month),
+									data : [...new Set(incomeList.map(x => x.month))],
 									axisTick: {
 											alignWithLabel: true
 									}
@@ -107,16 +110,30 @@
 					],
 					series : [
 							{
-									name:'收入',
+									name:'广告',
 									type:'bar',
+									stack: '收入',
 									barWidth: '60%',
 									label: {
 											normal: {
 													show: true,
-													position: 'top'
+													position: 'inside'
 											}
 									},
-									data: incomeList.map(x => x.income)
+									data: incomeList.filter(x => x.type === 'adv' || x.type === null).map(x => x.income)
+							},
+							{
+									name:'充值',
+									type:'bar',
+									stack: '收入',
+									barWidth: '60%',
+									label: {
+											normal: {
+													show: true,
+													position: 'inside'
+											}
+									},
+									data: incomeList.filter(x => x.type === 'charge' || x.type === null).map(x => x.income)
 							}
 					]
 			};
