@@ -30,7 +30,7 @@
 			$sql = "
 			select sum(A.amt)/100 as income, A.type from (select case when remark like '%充值%' then 'charge'
 				when remark like '%广告%' then 'adv' end as type, change_amt as amt
-				from balance_changelog where remark like '%充值%' or remark like '%广告%' and DATE_FORMAT(time, '%Y-%m-%d')=DATE_FORMAT(now(),'%Y-%m-%d')
+				from balance_changelog where remark like '%充值%' or remark like '%广告%' and time>curdate()
 				) A group by A.type
 			";
 			return $model->query($sql);
