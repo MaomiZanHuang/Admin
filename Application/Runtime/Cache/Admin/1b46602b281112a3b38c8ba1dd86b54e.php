@@ -1,20 +1,20 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
   <head>
-    <title>__APPNAME__|管理后台</title>
+    <title>拇指赞|管理后台</title>
     <meta name="keywords" content="全网通;VPN" />
     <meta name="description" content="翻墙;VPN" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
-    <link rel="stylesheet" href="__LIB__/pintuer/pintuer.css" />
-		<link rel="stylesheet" href="__CSS__/menu.css" />
+    <link rel="stylesheet" href="/mzz/Public/lib/pintuer/pintuer.css" />
+		<link rel="stylesheet" href="/mzz/Public/css/menu.css" />
 		<style type='text/css'>
 		</style>
-    <script src="__LIB__/pintuer/jquery.js"></script>
-    <script src="__LIB__/pintuer/pintuer.js"></script>
-		<script src="__LIB__/popup.js"></script>
+    <script src="/mzz/Public/lib/pintuer/jquery.js"></script>
+    <script src="/mzz/Public/lib/pintuer/pintuer.js"></script>
+		<script src="/mzz/Public/lib/popup.js"></script>
     <!--[if lt IE 8]>
-		<script src="__LIB__/pintuer/respond.js"></script>
+		<script src="/mzz/Public/lib/pintuer/respond.js"></script>
 		<![endif]-->
 		<script type='text/javascript'>
 		$(function(){
@@ -63,7 +63,7 @@
 					return false;
 				}
 				popup.showTip("正在查询用户...");
-				$.getJSON("{:U('Admin/User/getUser')}&user="+user,function(r){
+				$.getJSON("<?php echo U('Admin/User/getUser');?>&user="+user,function(r){
 					userCharge.user = r[0].user;
 					popup.hideTip();
 					if(r.length==0){
@@ -99,7 +99,7 @@
 					userCharge.card = void 0;
 				}
 
-				$.post("{:U('Admin/Cash/recharge')}", userCharge ,function(r){
+				$.post("<?php echo U('Admin/Cash/recharge');?>", userCharge ,function(r){
 					popup.showTip(r.msg||r);
 					setTimeout(function(){popup.hideTip();},1000);
 					if(r.status==1){
@@ -115,7 +115,13 @@
 <body>
   <!---导航栏-->
 	<!--此处要传入当前登录用户的用户名-->
-  <include file="./Tpl/header.html" user="{$user.user}" />
+  <div id='nav-top'>
+		<div class='nav-center'>
+			<div class='nav-logo hidden-l fleft'><img src='/mzz/Public/img/logo.png' width=50px height=50px /></div>
+			<div class='nav-title fleft'>拇指赞</div>
+			<div class='nav-reg fright'><font color=#f00><?php echo ($user["user"]); ?></font>,您好！</div>
+		</div>
+  </div>
   
   <!---中部内容区--->
   <div id='content'>
@@ -123,7 +129,20 @@
 			<div class='line'>
 				<div class='x2'>
 					<!--此处要传入当前选中菜单的class值-->
-					<include file="./Tpl/admin/menu.html" selected="cash" />
+					<dl class='menu'>
+	<dd class='menu-s index <?php if((cash == index)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Index/index');?> class='icon-home'>开始</a></dd>	
+	<!--
+	<dd class='menu-s node <?php if((cash == node)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Node/index');?> class='icon-sitemap'>节点管理</a></dd>
+	<dd class='menu-s cashier <?php if((cash == cashier)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cashier/index');?> class='icon-users'>收银员管理</a></dd>
+	
+	<dd class='menu-s system <?php if((cash == system)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/System/index');?> class='icon-gears (alias)'>系统配置</a></dd>
+	-->
+	<dd class='menu-s cash <?php if((cash == cash)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cash/index');?> class='icon-cny'>充值续费</a></dd>
+	<dd class='menu-s user <?php if((cash == user)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Goods/index');?> class='icon-users'>商品管理</a></dd>
+	<dd class='menu-s pubg <?php if((cash == pubg)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Card/index');?> class='icon-gears (alias)'>卡密管理</a></dd>
+	<dd class='menu-s'><a href=<?php echo U('Admin/Login/logout');?> class='icon-sign-out'>退出登录</a></dd>					
+	<dd class='cpy text-center'><p>拇指赞后台管理</p></dd>
+</dl>
 				</div>
 				
 				<div class='x10 content'>
@@ -167,9 +186,7 @@
 						<div class='line'>
 							充值积分:
 							<select style="height:34px;" name="points">
-								<volist name="chargeOptions" id="charge">
-									<option value="{$charge.points}">{$charge.title}</option>
-								</volist>
+								<?php if(is_array($chargeOptions)): $i = 0; $__LIST__ = $chargeOptions;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$charge): $mod = ($i % 2 );++$i;?><option value="<?php echo ($charge["points"]); ?>"><?php echo ($charge["title"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
 							</select>
 							<button class="button bg-main btn-charge charge2" disabled>充值</button></div>
 						</div>
@@ -182,6 +199,8 @@
 	</div>
 		
  <!---footer--->
-	<include file="./Tpl/footer.html" />	
+	<div id='footer'>
+		&#169;拇指赞 2018
+</div>	
 	</body>
 </html>

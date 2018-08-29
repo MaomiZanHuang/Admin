@@ -27,64 +27,69 @@ class CashController extends Controller {
 		$user = array(
 			'user'=>public_user_id()
 		);
+
+		$chargeOptions = M('goods_spec')->where("goods_id='0'")->select();
+
 		$this->assign('user', $user);
+		$this->assign('chargeOptions', $chargeOptions);
 		$this->display();
 	}
 	
 	public function recharge(){
 		$this->loginCheck(2);
-		$uid = I('post.uid');						//充值用户
-		$rechargeAmt = I('post.amt');		//充值数量
-		$rechargeUnit = I('post.unit');	//单位h,d,m
-		$cash = I('post.cash');
-		$trano = I('post.trano');
-		if($uid!=null && $rechargeAmt!=null && $rechargeUnit!=null){
-			$model_account = D('account');
-			if($model_account->rechargeAccount($uid,$rechargeAmt,$rechargeUnit)){
-				$rs = array(
-					'status'=>1,
-					'msg'=>'成功为'.$uid.'充值成功'.$rechargeAmt.$rechargeUnit,
-				);
-				
-				$model = D('task');
-				
-				//订单记录插入订单表中
-				$model_order = M('orderlist');
-				$order = array(
-					'id'=>null,
-					'uid'=>$uid,
-					'otime'=>date('Y-m-d H:i:s'),
-					'pid'=>'0',
-					'cash'=>(float)$cash,
-					'trano'=>$trano,
-					'tradesatus'=>'success',
-					'remark'=>'客服充值'.$rechargeAmt.$rechargeUnit,
-					'operator'=>public_user_id(),
-					'status'=>1
-				);
-				$model_order->add($order);
-			}else{
-				$rs = array(
-					'status'=>0,
-					'msg'=>'为'.$uid.'充值失败！'
-				);
+		$user = I('post.user');						// 充值用户
+		$rechargeAmt = (int)I('post.points');		// 充值数量
+		$rechargeCard = I('post.card');	// 卡密充值的
+		$charge_model = D('Balance');
+
+
+		if (!$user) {
+			return $this->ajaxReturn(array(
+				status => 0,
+				msg => '用户不能为空！'
+			));
+		}
+		// 优先根据卡密充值
+		if ($rechargeCard) {
+			$card_model = M('card');
+			$match_card = $card_model->where("card_no='%s' and charge_user is NULL", $rechargeCard)->find();
+			if (!$match_card) {
+				return $this->ajaxReturn(array(
+					status => 0,
+					msg => '卡密不存在或已充值！'
+				));
 			}
-		}else{
+			$points = $match_card['points'];
+			
+			if (!$charge_model->chargeUser($user, $points, '卡密充值+'.$points.'积分')) {
+				$this->ajaxReturn(array(
+					status => 0,
+					msg => '卡密绑定充值失败！'
+				));
+			}
+			// 激活卡号
+			$card_model->where("card_no='%s'", $rechargeCard)->setField(array(
+				charge_user => $user,
+				activate_time => date('Y-m-d H:i:s')
+			));
+
+			$this->ajaxReturn(array(
+				status => 1,
+				msg => '用户'.$user.'积分+'.$points
+			));
+		}
+
+		// 手动充值
+		$rs = array(
+			status => 0,
+			msg => '充值失败！'
+		);
+		if ($charge_model->chargeUser($user, $rechargeAmt, '客服充值+'.$rechargeAmt.'积分')) {
 			$rs = array(
-				'status'=>0,
-				'msg'=>'非法参数！'
+				status => 1,
+				msg => $user.'充值+'.$rechargeAmt.'积分成功！'
 			);
 		}
 		$this->ajaxReturn($rs);
-	}
-	
-	function test(){
-		header("Content-type: text/html; charset=utf-8"); 
-		$model = D('task');
-		try{
-			$model->execAllTask();
-		}catch(Exception $e){
-			echo $e;
-		}
 	}
 }

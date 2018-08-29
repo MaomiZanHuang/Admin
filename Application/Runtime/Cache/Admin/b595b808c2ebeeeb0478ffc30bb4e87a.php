@@ -1,8 +1,8 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
   <head>
-    <title>云梯|管理后台</title>
-    <meta name="keywords" content="云梯;VPN" />
+    <title>拇指赞|管理后台</title>
+    <meta name="keywords" content="拇指赞;VPN" />
     <meta name="description" content="翻墙;VPN" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
@@ -22,18 +22,18 @@
 		<script type='text/javascript' src="//cdn.bootcss.com/echarts/3.6.1/echarts.min.js"></script>
 		<script type="text/javascript">
 		var userCount = <?php echo ($userCount); ?>;
+		var todayIncome = <?php echo ($todayIncome); ?>;
 		var incomeList = <?php echo ($incomeList); ?>.reverse();
 		var getCount = type => (userCount.filter(x => x.type === type)[0] || {count: 0}).count;
+		var getTodayCount = type => (todayIncome.filter(x => x.type === type)[0] || {income: 0}).income;
 		$(function() {
 			$('#vip-count').text(getCount('active'));
-			$('#user-count').text(userCount.map(x => x.count).reduce(function (prev, next) {
-				return (+prev) + (+next);
-			}, 0));
+			$('#user-count').text(getCount('total'));
 			var myChart = echarts.init(document.getElementById('user-report'));
 			// 指定图表的配置项和数据
 			var option = {
 				title : {
-						text: '用户人数报表',
+						text: '今日收入占比',
 						subtext: '',
 						x:'center'
 				},
@@ -44,18 +44,17 @@
 				legend: {
 						orient: 'vertical',
 						left: 'bottom',
-						data: ['VIP付费用户', '已过期用户', '未激活用户']
+						data: ['充值', '广告']
 				},
 				series : [
 						{
-								name: '用户比例构成',
+								name: '收入占比',
 								type: 'pie',
 								radius : '55%',
 								center: ['50%', '50%'],
 								data:[
-										{value: Number(getCount('active')), name:'VIP付费用户' + getCount('active')},
-										{value: Number(getCount('expired')), name:'已过期用户' + getCount('expired')},
-										{value: Number(getCount('unactive')), name:'未激活用户' + getCount('unactive')}
+										{value: Number(getTodayCount('charge')), name:'充值' + getTodayCount('charge')},
+										{value: Number(getTodayCount('adv')), name:'广告' + getTodayCount('adv')},
 								],
 								itemStyle: {
 										emphasis: {
@@ -78,7 +77,11 @@
 						text: '近12个月收入趋势',
 						x: 'center'
 					},
-					color: ['#3398DB'],
+					legend: {
+						data: ['充值', '广告'],
+						right: 0
+					},
+					// color: ['#3398DB'],
 					tooltip : {
 							trigger: 'axis',
 							axisPointer : {            // 坐标轴指示器，坐标轴触发有效
@@ -94,7 +97,7 @@
 					xAxis : [
 							{
 									type : 'category',
-									data : incomeList.map(x => x.month),
+									data : [...new Set(incomeList.map(x => x.month))],
 									axisTick: {
 											alignWithLabel: true
 									}
@@ -107,16 +110,30 @@
 					],
 					series : [
 							{
-									name:'收入',
+									name:'广告',
 									type:'bar',
+									stack: '收入',
 									barWidth: '60%',
 									label: {
 											normal: {
 													show: true,
-													position: 'top'
+													position: 'inside'
 											}
 									},
-									data: incomeList.map(x => x.income)
+									data: incomeList.filter(x => x.type === 'adv' || x.type === null).map(x => x.income)
+							},
+							{
+									name:'充值',
+									type:'bar',
+									stack: '收入',
+									barWidth: '60%',
+									label: {
+											normal: {
+													show: true,
+													position: 'inside'
+											}
+									},
+									data: incomeList.filter(x => x.type === 'charge' || x.type === null).map(x => x.income)
 							}
 					]
 			};
@@ -130,7 +147,7 @@
   <div id='nav-top'>
 		<div class='nav-center'>
 			<div class='nav-logo hidden-l fleft'><img src='/mzz/Public/img/logo.png' width=50px height=50px /></div>
-			<div class='nav-title fleft'>云梯</div>
+			<div class='nav-title fleft'>拇指赞</div>
 			<div class='nav-reg fright'><font color=#f00><?php echo ($user["user"]); ?></font>,您好！</div>
 		</div>
   </div>
@@ -146,13 +163,14 @@
 	<!--
 	<dd class='menu-s node <?php if((index == node)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Node/index');?> class='icon-sitemap'>节点管理</a></dd>
 	<dd class='menu-s cashier <?php if((index == cashier)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cashier/index');?> class='icon-users'>收银员管理</a></dd>
-	<dd class='menu-s cash <?php if((index == cash)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cash/index');?> class='icon-cny'>充值续费</a></dd>
+	
 	<dd class='menu-s system <?php if((index == system)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/System/index');?> class='icon-gears (alias)'>系统配置</a></dd>
 	-->
+	<dd class='menu-s cash <?php if((index == cash)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cash/index');?> class='icon-cny'>充值续费</a></dd>
 	<dd class='menu-s user <?php if((index == user)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Goods/index');?> class='icon-users'>商品管理</a></dd>
 	<dd class='menu-s pubg <?php if((index == pubg)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Card/index');?> class='icon-gears (alias)'>卡密管理</a></dd>
 	<dd class='menu-s'><a href=<?php echo U('Admin/Login/logout');?> class='icon-sign-out'>退出登录</a></dd>					
-	<dd class='cpy text-center'><p>云梯后台管理</p></dd>
+	<dd class='cpy text-center'><p>拇指赞后台管理</p></dd>
 </dl>
 				</div>
 				
@@ -178,7 +196,7 @@
 		
  <!---footer--->
 	<div id='footer'>
-		&#169;云梯 2018
+		&#169;拇指赞 2018
 </div>	
 	</body>
 </html>

@@ -9,12 +9,22 @@
     <link rel="stylesheet" href="/mzz/Public/lib/pintuer/pintuer.css" />
 		<link rel="stylesheet" href="/mzz/Public/css/menu.css" />
 		<style type='text/css'>
-		.right-result-body img {
-			width: 45px;
-			height: 45px;
+		.toolbar{
+			margin-top:30px;
+			float:left;
 		}
-		.right-result-body .url {
-			font-size: 10px;
+		.des{
+			margin:30px 0;
+			float:right;
+		}
+		.des .box{
+			float:left;
+			margin-left:10px;
+		}
+		.des .block{
+			float:left;
+			width:30px;
+			height:25px;
 		}
 		</style>
     <script src="/mzz/Public/lib/pintuer/jquery.js"></script>
@@ -37,7 +47,7 @@
 		//从后台获取用户结果
 		function search_admin(key,filter,page,callback){
 			
-			$.post("<?php echo U('Admin/Admin/search_handler');?>",{type:'search',keywords:key,filter:filter,page:page},callback);
+			$.post("<?php echo U('Admin/Card/search_handler');?>",{type:'search',keywords:key,filter:filter,page:page},callback);
 		}
 		
 		//点击搜索永远是获取第一页数据
@@ -103,23 +113,21 @@
 				t = parseInt(tp);
 				r = r.rs;
 				
+				var types = {
+					chiji: '吃鸡',
+					yf: '月费',
+					jf: '季度',
+					nf: '年费'
+				};
+
 				for(var i=0;i<r.length;i++){
-					var status = r[i].status;
+					var status = r[i].activate_time;
 					var cls = "text-main";
-					if(status == '未激活'){
+					if(!status){
 						cls = "text-gray";
-					}else if((new Date(status))< (new Date())) {
-						cls = "text-red";
 					}
-					$('.search-result-table').append("<tr class="+cls+" data-id='"+r[i].id+"'>"
-						+ "<td><input type='checkbox'></td>"
-						+ "<td>"+r[i].cata_id+"</td>"
-						+ "<td>"+r[i].goods_id+"</td>"
-						+ "<td>"+(r[i].title||'-')+"</td>" 
-						+ "<td><img src='"+(r[i].logo||'-')+"' /></td>" 
-						+ "<td class='url'>"+(r[i].api_host||'-')+"</td>" 
-						+ "<td>"+(r[i].business_cata||'-')+"</td>"
-						+ "</tr>");
+					var type = types[r[i].type];
+					$('.search-result-table').append("<tr class="+cls+"><td><input type='checkbox'></td><td>"+r[i].card_no+'</td><td>'+(r[i].charge_user||'-')+'</td><td>'+(r[i].gen_time)+'</td><td>'+(r[i].activate_time||'-')+'</td><td>'+r[i].points+'积分</td></tr>');
 				}
 				//分页组件
 				$('.page').show();
@@ -159,10 +167,7 @@
 				}
 			};
 			Ext.popupInit();
-			//添加用户
-			$('.btn-add').click(function(){
-				window.open("<?php echo U('Admin/Goods/add');?>");
-			});
+
 			
 			//删除用户(可批量操作)
 			$('.btn-del').click(function(){
@@ -185,9 +190,9 @@
 				var userList = [];
 				popup.setBody("");
 				$.each(selList,function(i,e){
-					var user = $(e).parent().parent().attr('data-id');
+					var user = $(e).parent().next().html();
 					(function(user){
-						$.post("<?php echo U('Admin/Goods/del_ajax');?>",{user:user},function(r) {
+						$.post("<?php echo U('Admin/Card/del_ajax');?>",{user:user},function(r) {
 							popup.append("<li>"+r.msg+"</li>");
 						});
 					})(user);
@@ -207,30 +212,15 @@
 					return false;
 				}
 				//获取用户名
-				var user = selList.parent().parent().attr('data-id');
-				window.open("<?php echo U('Admin/Goods/modify');?>&id=" +user);
+				var user = selList.parent().next().html();
+				popup.setTitle("修改用户").setCss({width:'400px',height:'450px'}).setBody("<iframe src='<?php echo U('Admin/User/modify');?>?user="+user+"' width=350 height=430></iframe>").show();
 			});
-
-			//修改价格(不可批量操作)
-			$('.btn-modify-price').click(function(){
-				var selList = Ext.selectedItem();
-				if(selList.length==0){
-					Ext.warning("修改用户","请先选择一个用户！");
-					return false;
-				}
-				if(Ext.selectedItem().length>1){
-					Ext.warning("修改用户","一次只能修改一个用户");
-					return false;
-				}
-				//获取用户名
-				var goods_id = selList.parent().next().next().html();
-				popup.setTitle("修改价格").setCss({width:'800px',height:'600px'}).setBody("<iframe src='<?php echo U('Admin/Goods/specs');?>&goods_id="+goods_id+"' width=100% height=100%></iframe>").show();
 			});
-		});
 		</script>
 	</head>
 <body>
   <!---导航栏-->
+	<!--此处要传入当前登录用户的用户名-->
   <div id='nav-top'>
 		<div class='nav-center'>
 			<div class='nav-logo hidden-l fleft'><img src='/mzz/Public/img/logo.png' width=50px height=50px /></div>
@@ -244,30 +234,48 @@
 		<div class='nav-center'>
 			<div class='line'>
 				<div class='x2'>
+					<!--此处要传入当前选中菜单的class值-->
 					<dl class='menu'>
-	<dd class='menu-s index <?php if((user == index)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Index/index');?> class='icon-home'>开始</a></dd>	
+	<dd class='menu-s index <?php if((pubg == index)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Index/index');?> class='icon-home'>开始</a></dd>	
 	<!--
-	<dd class='menu-s node <?php if((user == node)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Node/index');?> class='icon-sitemap'>节点管理</a></dd>
-	<dd class='menu-s cashier <?php if((user == cashier)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cashier/index');?> class='icon-users'>收银员管理</a></dd>
+	<dd class='menu-s node <?php if((pubg == node)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Node/index');?> class='icon-sitemap'>节点管理</a></dd>
+	<dd class='menu-s cashier <?php if((pubg == cashier)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cashier/index');?> class='icon-users'>收银员管理</a></dd>
 	
-	<dd class='menu-s system <?php if((user == system)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/System/index');?> class='icon-gears (alias)'>系统配置</a></dd>
+	<dd class='menu-s system <?php if((pubg == system)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/System/index');?> class='icon-gears (alias)'>系统配置</a></dd>
 	-->
-	<dd class='menu-s cash <?php if((user == cash)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cash/index');?> class='icon-cny'>充值续费</a></dd>
-	<dd class='menu-s user <?php if((user == user)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Goods/index');?> class='icon-users'>商品管理</a></dd>
-	<dd class='menu-s pubg <?php if((user == pubg)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Card/index');?> class='icon-gears (alias)'>卡密管理</a></dd>
+	<dd class='menu-s cash <?php if((pubg == cash)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Cash/index');?> class='icon-cny'>充值续费</a></dd>
+	<dd class='menu-s user <?php if((pubg == user)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Goods/index');?> class='icon-users'>商品管理</a></dd>
+	<dd class='menu-s pubg <?php if((pubg == pubg)): ?>selected<?php endif; ?>'><a href=<?php echo U('Admin/Card/index');?> class='icon-gears (alias)'>卡密管理</a></dd>
 	<dd class='menu-s'><a href=<?php echo U('Admin/Login/logout');?> class='icon-sign-out'>退出登录</a></dd>					
 	<dd class='cpy text-center'><p>拇指赞后台管理</p></dd>
 </dl>
 				</div>
 				
 				<div class='x10 content'>
+					
+					
+					<div class="tab">
+						<div class="tab-head">
+						<strong>吃鸡申诉管理</strong>
+						<ul class="tab-nav">
+						<li class="active"><a href="#">卡密查询</a> </li>
+						<li><a href="<?php echo U('Admin/Card/add');?>">批量新增卡密</a> </li>
+						</ul>
+						</div>
+						
+						<div class="tab-body">
+						<div class="tab-panel active">
+						<!----content start ------->
+							<div class='x10 content'>
 					<div class='right-body'>
 						<!---搜索区域--->
 						<div class='right-search'>
 						<form style='max-width:500px;margin:0 auto;'>
-							<input type='text' class='input' placeholder='请输入商品名搜索' id='keywords' style='width:60%;border-radius:0;float:left'>
+							<input type='text' class='input' placeholder='请输入要查询的卡密' id='keywords' style='width:60%;border-radius:0;float:left'>
 							<select style='height:34px;border-radius:0px;' id='filter'>
 								<option value='all'>全部</option>
+								<option value='normal'>已使用</option>
+								<option value='expired'>未使用</option>
 							</select>
 							<button type='submit' class='button' class='float:left'>搜索</button>
 							</div>
@@ -275,19 +283,17 @@
 						</div>
 						<!--结果区域--->
 						<div class='right-result'>
-								<button class='button bg-main btn-add'>添加</button>
 							<div class='right-result-head'><h4>全部结果:</h4></div>
 							<div class='right-result-body'>
-								<table class="table table-hover search-result-table"><tr class='th'><th>选择</th><th>分类ID</th><th>商品ID</th><th>标题</th><th>logo</th><th>API_HOST</th><th>业务分类</th></tr>
+								<table class="table table-hover search-result-table"><tr class='th'><th>选择</th><th>卡号</th><th>绑定充值账号</th><th>生成时间</th><th>激活时间</th><th>类型</th></tr>
 								</table>
 								<!---操作选项-->
 								<div class='left-op page' style='float:left;display:none;margin:15px 0'>
 									<span>
 										<input type='checkbox' id='btn-select-all'>全选
 										<button class='button border-main btn-del'>删除</button>
-										<button class='button border-main btn-modify'>修改商品</button>
-										<button class='button border-main btn-modify-price'>修改价格</button>
-										
+										<button class='button border-main btn-modify'>修改</button>
+										<button class='button bg-main btn-add'>添加</button>
 									</span>
 								</div>
 								<!---分页组件-->
@@ -305,6 +311,18 @@
 						</div>
 						
 						
+				</div>
+						<!----content end---------->
+						
+						</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
 				</div>
 			</div>
 		</div>
