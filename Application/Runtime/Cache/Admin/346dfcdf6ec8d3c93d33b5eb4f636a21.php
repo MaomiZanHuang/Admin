@@ -3,6 +3,15 @@
 <link rel='stylesheet' href='/mzz/Public/lib/pintuer/pintuer.css' />
 <script src="/mzz/Public/lib/pintuer/jquery.js"></script>
 <script type="text/javascript">
+var parseFunctionStr = function(str) {
+  str = str.trim();
+	console.log(str);
+  var _prefix = str.match(/^function[\S|\s]+?{/);
+  var prefix = _prefix[0];
+  var param = prefix.replace(/^functions*?(/, '').replace(/)s*{$/, '').trim();
+  var function_body = str.replace(prefix, '').replace(/}$/, '');
+  return new Function(param, function_body);
+}
 $(function() {
 	$('input[name=logo]').change(function(e) {
 		$("#logo").attr('src', e.target.value);
@@ -26,7 +35,16 @@ $(function() {
 		}catch(err) {
 			$('#api_extra_params_error').show();
 		}
-	})
+	});
+	$("textarea[name=callback]").blur(function(){
+		if ($(this).val().trim() === '') return false;
+		try {
+			parseFunctionStr($(this).val());
+			$('#callback_error').hide();
+		}catch(err) {
+			$('#callback_error').html(err).show();
+		}
+	});
 })
 </script>
 </head>
@@ -174,6 +192,28 @@ $(function() {
 
 		</div>
 	</div>
+	<div class="form-group">
+			<div class="label">
+				<label for="email">结果处理</label>
+			</div>
+			<div class="field">
+					<div class="line">
+							<div class="xl6">
+				<textarea class="input" name="callback" rows="4" placeholder="对服务器返回结果进行处理并返回标准格式"></textarea>
+				<p id="callback_error" class="text-red" style="display: none">函数定义不通过</p>
+				</div>
+				
+				<div class="xl6">
+					输入网络请求结果，输出标准数据格式:<br>
+					{	<br>
+						status: 0,       // 1表示下单成功<br/>
+						msg: '提示信息'   // 提示信息<br/>
+					}<br/>
+				</div>
+				</div>
+	
+			</div>
+		</div>
 	<div class="form-group">
 			<div class="label">
 				<label for="email">业务类型</label>

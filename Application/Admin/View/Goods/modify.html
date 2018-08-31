@@ -3,6 +3,16 @@
 <link rel='stylesheet' href='__LIB__/pintuer/pintuer.css' />
 <script src="__LIB__/pintuer/jquery.js"></script>
 <script type="text/javascript">
+var parseFunctionStr = function(str) {
+  str = str.trim();
+	console.log(str);
+  var _prefix = str.match(/^function[\S|\s]+?{/);
+  var prefix = _prefix[0];
+  var param = prefix.replace(/^function\s*?\(/, '').replace(/\)\s*{$/, '').trim();
+  var function_body = str.replace(prefix, '').replace(/}$/, '');
+  return new Function(param, function_body);
+}
+
 $(function() {
 	var GOODS = {$goods};
 
@@ -19,6 +29,33 @@ $(function() {
 	$("textarea[name=api_extra_params]").val(GOODS.api_extra_params);
 	$("select[name=business_cata]").val(GOODS.business_cata);
 
+	$("textarea[name=callback]").val(GOODS.callback);
+
+	$("textarea[name=api_fixed_params]").blur(function(){
+		try {
+			JSON.parse($(this).val());
+			$('#api_fixed_params_error').hide();
+		} catch(err) {
+			$('#api_fixed_params_error').show();
+		}
+	});
+	$("textarea[name=api_extra_params]").blur(function(){
+		try {
+			JSON.parse($(this).val());
+			$('#api_extra_params_error').hide();
+		} catch(err) {
+			$('#api_extra_params_error').show();
+		}
+	});
+	$("textarea[name=callback]").blur(function(){
+		if ($(this).val().trim() === '') return false;
+		try {
+			parseFunctionStr($(this).val());
+			$('#callback_error').hide();
+		}catch(err) {
+			$('#callback_error').html(err).show();
+		}
+	});
 });
 </script>
 </head>
@@ -166,6 +203,28 @@ $(function() {
 						needs_num_0: 'amt'
 					}
 					数量amt QQ号qq 说说shuoshuo_id 抖音作品douyin_id 全民K歌作品song_id
+					</div>
+					</div>
+		
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="label">
+					<label for="email">结果处理</label>
+				</div>
+				<div class="field">
+						<div class="line">
+								<div class="xl6">
+					<textarea class="input" name="callback" rows="4" placeholder="对服务器返回结果进行处理并返回标准格式"></textarea>
+					<p id="callback_error" class="text-red" style="display: none">函数定义不通过</p>
+					</div>
+					
+					<div class="xl6">
+						输入网络请求结果，输出标准数据格式:<br>
+						{	<br>
+							status: 0,       // 1表示下单成功<br/>
+							msg: '提示信息'   // 提示信息<br/>
+						}<br/>
 					</div>
 					</div>
 		

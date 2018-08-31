@@ -349,3 +349,123 @@ SQL: SHOW COLUMNS FROM `card` [ RunTime:0.0014s ]
 SQL: select count(*) from card where card_no like '%HV47-6L15-R4K9-OKO5-SGES-7T9D%' and 1=1 [ RunTime:0.0012s ]
 SQL: select id, card_no, price, points, gen_time, activate_time, charge_user from card where card_no like '%HV47-6L15-R4K9-OKO5-SGES-7T9D%' and 1=1 limit 0,20 [ RunTime:0.0010s ]
 
+[ 2018-08-30T01:04:26+08:00 ] ::1 /mzz/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005453s ]
+SQL: SHOW COLUMNS FROM `balance_changelog` [ RunTime:0.0063s ]
+SQL: 
+			select sum(A.amt)/100 as income, A.type from (select case when remark like '%充值%' then 'charge'
+				when remark like '%广告%' then 'adv' end as type, change_amt as amt
+				from balance_changelog where (remark like '%充值%' or remark like '%广告%') and time>curdate()
+				) A group by A.type
+			 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `user_user` [ RunTime:0.0009s ]
+SQL: select count(distinct user) as count, 'active' as type from balance_changelog where remark like '%充值%' or remark like '%广告%' [ RunTime:0.0022s ]
+SQL: select count(*) as count, 'total' as type from user_user [ RunTime:0.0003s ]
+SQL: 
+			select a.month,ifnull(b.cash/100,0) as income, b.type from (select DATE_FORMAT(curdate(),'%Y-%m') as month 
+			union select DATE_FORMAT(curdate() - INTERVAL 1 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 2 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 3 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 4 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 5 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 6 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 7 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 8 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 9 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 10 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 11 MONTH,'%Y-%m') as month
+			)a left join (select c.month,sum(c.change_amt) as cash, c.type from (SELECT case when remark like '%充值%' then 'charge' else 'adv' end as type, DATE_FORMAT(time, '%Y-%m') as month, change_amt FROM `balance_changelog` where remark like '%充值%' or remark like '%广告%')c GROUP by c.month,c.type) b on a.month=b.month
+			 [ RunTime:0.0011s ]
+SQL: SELECT SUM(change_amt) AS tp_sum FROM `balance_changelog` WHERE ( remark like '%充值%' or remark like '%广告%' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 162 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 162 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 164 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 164 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 165 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 165 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 169 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 169 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 171 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004980s ]
+
+[ 2018-08-30T01:04:31+08:00 ] ::1 /mzz/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `balance_changelog` [ RunTime:0.0018s ]
+SQL: 
+			select sum(A.amt)/100 as income, A.type from (select case when remark like '%充值%' then 'charge'
+				when remark like '%广告%' then 'adv' end as type, change_amt as amt
+				from balance_changelog where (remark like '%充值%' or remark like '%广告%') and time>curdate()
+				) A group by A.type
+			 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user_user` [ RunTime:0.0013s ]
+SQL: select count(distinct user) as count, 'active' as type from balance_changelog where remark like '%充值%' or remark like '%广告%' [ RunTime:0.0009s ]
+SQL: select count(*) as count, 'total' as type from user_user [ RunTime:0.0010s ]
+SQL: 
+			select a.month,ifnull(b.cash/100,0) as income, b.type from (select DATE_FORMAT(curdate(),'%Y-%m') as month 
+			union select DATE_FORMAT(curdate() - INTERVAL 1 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 2 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 3 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 4 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 5 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 6 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 7 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 8 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 9 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 10 MONTH,'%Y-%m') as month
+			union select DATE_FORMAT(curdate() - INTERVAL 11 MONTH,'%Y-%m') as month
+			)a left join (select c.month,sum(c.change_amt) as cash, c.type from (SELECT case when remark like '%充值%' then 'charge' else 'adv' end as type, DATE_FORMAT(time, '%Y-%m') as month, change_amt FROM `balance_changelog` where remark like '%充值%' or remark like '%广告%')c GROUP by c.month,c.type) b on a.month=b.month
+			 [ RunTime:0.0016s ]
+SQL: SELECT SUM(change_amt) AS tp_sum FROM `balance_changelog` WHERE ( remark like '%充值%' or remark like '%广告%' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 162 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 162 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 164 行.
+NOTIC: [8] Use of undefined constant node - assumed 'node' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 164 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 165 行.
+NOTIC: [8] Use of undefined constant cashier - assumed 'cashier' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 165 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant system - assumed 'system' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 169 行.
+NOTIC: [8] Use of undefined constant cash - assumed 'cash' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 169 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 171 行.
+NOTIC: [8] Use of undefined constant pubg - assumed 'pubg' D:\wamp64\www\mzz\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003657s ]
+

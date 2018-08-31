@@ -59,7 +59,8 @@ class GoodsController extends Controller {
 				'api_fixed_params' => I('post.api_fixed_params'),
 				'api_extra_params' => I('post.api_extra_params'),
 				'business_cata' => I('post.business_cata'),
-				'online' => 1
+				'online' => 1,
+				'callback' => I('post.callback')
 			);
 
 			// 解析规格
