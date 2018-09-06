@@ -83,8 +83,14 @@
 
 
 			userCharge.points = $('select[name=points]').val();
+			$('input[name=chargeAmt]').val(userCharge.points);
+
+			$("input[name=chargeAmt]").change(function(){
+				userCharge.points=$(this).val();
+			});
 			$("select[name=points]").change(function(){
 				userCharge.points=$(this).val();
+				$('input[name=chargeAmt]').val(userCharge.points);
 			});
 			
 			$(".btn-charge").click(function(e){
@@ -171,6 +177,7 @@
 									<option value="{$charge.points}">{$charge.title}</option>
 								</volist>
 							</select>
+							<input class="input" style="width: 200px; display: inline-block;" type="number" name="chargeAmt">
 							<button class="button bg-main btn-charge charge2" disabled>充值</button></div>
 						</div>
 						

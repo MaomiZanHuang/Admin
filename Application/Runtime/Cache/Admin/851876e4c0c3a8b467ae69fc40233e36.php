@@ -1,1 +1,0 @@
-<?php if (!defined('THINK_PATH')) exit();?><h1>添加成功！</h1>
