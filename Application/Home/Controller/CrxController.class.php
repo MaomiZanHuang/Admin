@@ -107,4 +107,8 @@ class CrxController extends Controller {
 			$orderRS = $model->field(array('otime','oid','cash','pid','remark','trano'))->where("uid='".$uid."' and status=1")->order('otime desc')->select();
 			$this->ajaxReturn($orderRS);
 		}
+
+		public function info() {
+			phpinfo();
+		}
 }
