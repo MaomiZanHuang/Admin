@@ -8,14 +8,12 @@
 			$vcode = $params['verifycode'];
 			$user = $params['user'];
 			$pwd = $params['pwd'];
-			/**
 			if(!$this->check_verify($vcode)){
 				return array(
 					'status'=>0,
 					'msg'=>'验证码错误'
 				);
 			}
-			**/
 			$res = $this->check_userpwd($user,$pwd); 
 			if(!$res){
 				return array(
