@@ -42,9 +42,9 @@ class HuzanController extends Controller {
 	
 	// 拇指赞接口
 	public function putTaskByMzz() {
-		$ALLOW_IPS = [];
+		$ALLOW_IPS = ['123.207.169.88'];
 		$ip = get_client_ip();
-		if (!in_array($ip, $ALLOW_IPS) || I('post.sign') != '7Q8EC2MDN') {
+		if (!in_array($ip, $ALLOW_IPS)) {
 			$this->ajaxReturn(array(
 				status => 0,
 				msg => '403 Forbidden'
@@ -191,7 +191,7 @@ class HuzanController extends Controller {
 		$model = M('huzan_task');
 		
 		$today = date('Y-m-d');
-		$shuas = M('huzan_report')->where("qq='%s' and type='%s' and create_time > %s", $qq, $type, $today)->select();
+		$shuas = M('huzan_report')->where("qq='%s' and type='%s' and create_time>'%s'", $qq, $type, $today)->select();
 		$records = array($qq);
 		foreach($shuas as $shua) {
 			$qqs = explode(",", $shua);
