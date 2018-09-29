@@ -50,33 +50,65 @@ class HuzanController extends Controller {
 				msg => '403 Forbidden'
 			));
 		}
+
+		$num = I('post.num');
+		$type = I('post.type');
+		$qq = trim(I('post.qq'));
+		$sid = trim(I('post.sid'));
+		$content = trim(I('post.content'));
 		
-		// 类型SS_ZAN,SS_COMMENT,SS_LIULAN,QZONE_ZAN,QZONE_LIULAN,QZONE_COMMENT,QQ_ZAN
+		
 		$model = M('huzan_task');
-		$data = array(
-			id => null,
-			qq => I('post.qq'),
-			total_num => I('post.num'),
-			remain_num => I('post.num'),
-			create_time => date('Y-m-d H:i:s'),
-			privilige => 10,
-			status => 0,
-			type => I('post.type'),
-			sid => I('post.sid'),
-			res_id => I('post.res_id')
+		
+		$task_qqs = $model->where("qq='%s' and type='%s'", $qq, $type)->find();
+		$res = array(
+			status => 1,
+			msg => '下单成功！'
 		);
-		if ($mdoel->add($data)) {
-			$this->ajaxReturn(array(
+		
+		// 不存在该QQ的任务
+		$num = count($qqs);
+		if (!$task_qqs) {
+			$data = array(
+				id => null,
+				qq => $qq,
+				total_num => $num,
+				remain_num => $num,
+				create_time => date('Y-m-d H:i:s'),
+				privilige => 0,
 				status => 1,
-				msg => '下单成功！'
-			));
-		} else {
-			$this->ajaxReturn(array(
-				status => 0,
-				msg => '下单失败！'
-			));
+				type => $type,
+				res_id => I('post.res_id'),
+				sid => I('post.sid'),
+				content => I('post.content')
+			);
+			if (!$model->add($data)) {
+				$res['status'] = 0;
+				$res['msg'] = '下单失败！'.$qq;
+			}
+			return $this->ajaxReturn($res);
 		}
 		
+		// 存在则对订单数进行更新
+		$task_qq = $task_qqs;
+		$task_qq['total_num'] += $num;
+		$task_qq['remain_num'] += $num;
+		// 强制覆盖更新最近提交的一条说说
+		if ($type == 'SS_COMMENT' || $type == 'SS_ZAN') {
+			$task_qq['res_id'] = I('post.res_id');
+			$task_qq['sid'] = I('post.sid');
+		}
+		if ($type == 'QZONE_COMMENT' || $type == 'SS_COMMENT') {
+			$task_qq['content'] = I('post.content');
+		}
+		
+		
+		if (!$model->data($task_qq)->save()) {
+			$res['status'] = 0;
+			$res['msg'] = '下单失败！';
+		}
+		
+		return $this->ajaxReturn($res);
 	}
 	
 	// 永久限制permanent QZONE_ZAN, 
