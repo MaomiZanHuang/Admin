@@ -198,7 +198,6 @@ class HuzanController extends Controller {
 		}
 		
 		$tasks = $model->order('remain_num desc')->where("type='%s' and remain_num > 0 and qq not in (%s)", $type, implode(',', $records))->limit(0, $num)->select();
-		
 		$qqs = array();
 		
 		foreach($tasks as $task) {
@@ -230,7 +229,7 @@ class HuzanController extends Controller {
 		$num = $this->NUM_MAP[$type];
 
 		$model = M('huzan_task');
-		$tasks = $model->order('remain_num desc')->where("type='%s' and remain_num > 0", $type)->limit(0, $num)->select();
+		$tasks = $model->order('remain_num desc')->where("type='%s' and remain_num>0", $type)->limit(0, $num)->select();
 		$qqs = array();
 		
 		foreach($tasks as $task) {
