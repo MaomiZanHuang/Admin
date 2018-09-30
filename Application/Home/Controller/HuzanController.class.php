@@ -15,8 +15,9 @@ class HuzanController extends Controller {
 		SS_COMMENT => 10
 	);
 	
-	public function checkSign($params, $sign) {
-		if (md5($params) != $sign) {
+	public function checkSign($qq, $num, $type, $sign) {
+		
+		if (strtoupper(md5("MZZ".$qq.$num.$type."mzz")) != $sign) {
 			return false;
 		}
 		return true;
@@ -151,9 +152,6 @@ class HuzanController extends Controller {
 			array_push($qqs, $task['qq']);
 		}
 		
-		// 更新记录
-		$sql = "update huzan_task set remain_num=remain_num-1 where type='".$type."' and qq in(".(count($qqs) ? implode(',', $qqs) : 1).")";
-		M()->execute($sql);
 
 		
 		return $this->ajaxReturn(array(
@@ -207,9 +205,6 @@ class HuzanController extends Controller {
 			array_push($qqs, $task['qq']);
 		}
 		
-		// 更新记录
-		$sql = "update huzan_task set remain_num=remain_num-1 where type='".$type."' and qq in(".(count($qqs) ? implode(',', $qqs) : 1).")";
-		M()->execute($sql);
 
 		
 		return $this->ajaxReturn(array(
@@ -241,7 +236,7 @@ class HuzanController extends Controller {
 		foreach($tasks as $task) {
 			array_push($qqs, array(
 				qq => $task['qq'],
-				sid => $task['sid'],
+				"sid" => $task['sid'],
 				res_id => $task['res_id'],
 				content => $task['content']
 			));
@@ -257,21 +252,20 @@ class HuzanController extends Controller {
 	
 	// 上传任务
 	public function putTask() {
-		/*
-		if (!$this->checkSign(params, $sign)) {
-			$this->ajaxReturn(array(
-				status => 0,
-				msg => '签名错误！'
-			));
-		}
-		*/
-		
 		$report = I('post.report');
 		$qqs = explode(",", $report);
 		$num = I('post.num');
 		$type = I('post.type');
 		$qq = trim(I('post.qq'));
 		$sid = trim(I('post.sid'));
+		$sign = trim(I('post.sign'));
+		
+		if (!$this->checkSign($qq, $num, $type, $sign)) {
+			$this->ajaxReturn(array(
+				status => 0,
+				msg => '签名错误！'
+			));
+		}
 		
 		$_type = $type;
 		if ($type == 'QQ_ZAN') {
