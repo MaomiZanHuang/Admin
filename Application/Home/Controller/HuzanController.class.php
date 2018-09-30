@@ -68,7 +68,6 @@ class HuzanController extends Controller {
 		);
 		
 		// 不存在该QQ的任务
-		$num = count($qqs);
 		if (!$task_qqs) {
 			$data = array(
 				id => null,
