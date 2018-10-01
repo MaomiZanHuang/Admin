@@ -191,7 +191,7 @@ class HuzanController extends Controller {
 		$shuas = M('huzan_report')->field('qqs')->where("qq='%s' and type='%s' and create_time>'%s'", $qq, $type, $today)->select();
 		$records = array($qq);
 		foreach($shuas as $shua) {
-			$qqs = explode(",", $shua);
+			$qqs = explode(",", $shua['qqs']);
 			foreach($qqs as $q)
 			array_push($records, q);
 		}
