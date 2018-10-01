@@ -192,9 +192,8 @@ class HuzanController extends Controller {
 		$records = array($qq);
 		foreach($shuas as $shua) {
 			$qqs = explode(",", $shua['qqs']);
-			var_dump($qqs);
 			foreach($qqs as $q)
-			array_push($records, q);
+			array_push($records, $q);
 		}
 		
 		$tasks = $model->order('remain_num desc')->where("type='%s' and remain_num > 0 and qq not in (%s)", $type, implode(',', $records))->limit(0, $num)->select();
