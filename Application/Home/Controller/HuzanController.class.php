@@ -134,13 +134,12 @@ class HuzanController extends Controller {
 		
 		$model = M('huzan_task');
 		
-		$shuas = M('huzan_report')->where("qq='%s' and type='%s'", $qq, $type)->select();
+		$shuas = M('huzan_report')->field('qqs')->where("qq='%s' and type='%s'", $qq, $type, $today)->select();
 		$records = array($qq);
 		foreach($shuas as $shua) {
-			$qqs = explode(",", $shua);
-			foreach($qqs as $q) {
-					array_push($records, $q);
-			}
+			$qqs = explode(",", $shua['qqs']);
+			foreach($qqs as $q)
+			array_push($records, $q);
 		}
 		
 		$tasks = $model->order('remain_num desc')->where("type='%s' and remain_num > 0 and qq not in (%s) ", $type, implode(',', $records))->limit(0, $num)->select();
