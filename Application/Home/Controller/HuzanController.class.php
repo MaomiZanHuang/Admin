@@ -188,10 +188,10 @@ class HuzanController extends Controller {
 		$model = M('huzan_task');
 		
 		$today = date('Y-m-d');
-		$shuas = M('huzan_report')->where("qq='%s' and type='%s' and create_time>'%s'", $qq, $type, $today)->select();
+		$shuas = M('huzan_report')->field('qqs')->where("qq='%s' and type='%s' and create_time>'%s'", $qq, $type, $today)->select();
 		$records = array($qq);
 		foreach($shuas as $shua) {
-			$qqs = explode(",", $shua['qqs']);
+			$qqs = explode(",", $shua);
 			foreach($qqs as $q)
 			array_push($records, q);
 		}
