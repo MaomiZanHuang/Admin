@@ -208,8 +208,7 @@ class HuzanController extends Controller {
 		return $this->ajaxReturn(array(
 			status => 1,
 			data => $qqs,
-			msg => '获取成功！',
-			exp_qqs => $shuas
+			msg => '获取成功！'
 		));
 		
 	}
