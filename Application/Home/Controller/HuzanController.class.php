@@ -209,7 +209,7 @@ class HuzanController extends Controller {
 			status => 1,
 			data => $qqs,
 			msg => '获取成功！',
-			exp_qqs => $records
+			exp_qqs => $shuas
 		));
 		
 	}
