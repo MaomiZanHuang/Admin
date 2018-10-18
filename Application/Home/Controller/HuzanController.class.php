@@ -58,6 +58,12 @@ class HuzanController extends Controller {
 		$sid = trim(I('post.sid'));
 		$content = trim(I('post.content'));
 		
+		if (!preg_match('/^\d{5,11}$/', $qq)) {
+			return $this->ajaxReturn(array(
+				status => 0,
+				msg => 'qq号不正确！'
+			));
+		}
 		
 		$model = M('huzan_task');
 		
@@ -187,7 +193,7 @@ class HuzanController extends Controller {
 		$model = M('huzan_task');
 		
 		$today = date('Y-m-d');
-		$shuas = M('huzan_report')->field('qqs')->where("qq='%s' and type='%s' and create_time>'%s'", $qq, $type, $today)->select();
+		$shuas = M('huzan_report')->field('qqs')->where("qq='%s' and type='%s' and remain_num>0 and create_time>'%s'", $qq, $type, $today)->select();
 		$records = array($qq);
 		foreach($shuas as $shua) {
 			$qqs = explode(",", $shua['qqs']);
@@ -264,6 +270,13 @@ class HuzanController extends Controller {
 			));
 		}
 		
+		if (!preg_match('/^\d{5,11}$/', $qq)) {
+			return $this->ajaxReturn(array(
+				status => 0,
+				msg => 'qq号不正确！'
+			));
+		}
+		
 		$_type = $type;
 		if ($type == 'QQ_ZAN') {
 			$_type = $type.$num;
@@ -275,7 +288,6 @@ class HuzanController extends Controller {
 					msg => '下单数量不正确！'
 				));
 		}
-		
 		
 		
 		$sql = "update huzan_task set remain_num=remain_num-1 where type='".$type."' and qq in(".(count($qqs) ? implode(',', $qqs) : 1).")";
