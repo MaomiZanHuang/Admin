@@ -1,0 +1,461 @@
+[ 2018-10-20T22:38:22+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011118s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 268 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 269 行.
+
+[ 2018-10-20T22:38:27+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 268 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 269 行.
+
+[ 2018-10-20T22:38:59+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 278 行.
+
+[ 2018-10-20T22:39:09+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask&qq=1540811286
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 278 行.
+
+[ 2018-10-20T22:40:17+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '820173521,2805887432,553308390)' at line 1
+ [ SQL语句 ] : update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(1316706352,38109356,2450357997,941438573,984177974,3532116501,3253490197,,820173521,2805887432,553308390)
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '820173521,2805887432,553308390)' at line 1
+ [ SQL语句 ] : update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(1316706352,38109356,2450357997,941438573,984177974,3532116501,3253490197,,820173521,2805887432,553308390)
+
+[ 2018-10-20T22:40:42+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.1800s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0705s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 301 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 305 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 306 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:40:41') [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 313 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 314 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='112',`remain_num`='112',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: curl D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 376 行.
+NOTIC: [2] curl_errno() expects parameter 1 to be resource, null given D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 376 行.
+
+[ 2018-10-20T22:41:04+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:41:03') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='114',`remain_num`='114',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: curl D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+NOTIC: [2] curl_errno() expects parameter 1 to be resource, null given D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+
+[ 2018-10-20T22:41:50+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+
+[ 2018-10-20T22:42:14+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:42:14') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='116',`remain_num`='116',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: curl D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+NOTIC: [2] curl_errno() expects parameter 1 to be resource, null given D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+
+[ 2018-10-20T22:42:21+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:42:21') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='118',`remain_num`='118',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: curl D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+NOTIC: [2] curl_errno() expects parameter 1 to be resource, null given D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+
+[ 2018-10-20T22:42:37+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:42:36') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='120',`remain_num`='120',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: curl D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+NOTIC: [2] curl_errno() expects parameter 1 to be resource, null given D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 374 行.
+
+[ 2018-10-20T22:43:10+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009866s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:43:10') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='122',`remain_num`='122',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: r D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 360 行.
+
+[ 2018-10-20T22:43:42+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:43:42') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='124',`remain_num`='124',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: curl D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 375 行.
+NOTIC: [2] curl_errno() expects parameter 1 to be resource, null given D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 375 行.
+
+[ 2018-10-20T22:44:04+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:44:03') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='126',`remain_num`='126',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: curl D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 375 行.
+NOTIC: [2] curl_errno() expects parameter 1 to be resource, null given D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 375 行.
+
+[ 2018-10-20T22:44:13+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+
+[ 2018-10-20T22:45:33+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:45:32') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='128',`remain_num`='128',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0004s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 372 行.
+
+[ 2018-10-20T22:45:51+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:45:51') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='130',`remain_num`='130',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0003s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 373 行.
+
+[ 2018-10-20T22:45:52+08:00 ] ::1 /mzz/index.php?m=Home&c=Huzan&a=putTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Use of undefined constant QQ_ZAN100 - assumed 'QQ_ZAN100' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN300 - assumed 'QQ_ZAN300' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN500 - assumed 'QQ_ZAN500' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QQ_ZAN1000 - assumed 'QQ_ZAN1000' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_LIULAN - assumed 'QZONE_LIULAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_ZAN - assumed 'QZONE_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant QZONE_COMMENT - assumed 'QZONE_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_ZAN - assumed 'SS_ZAN' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+NOTIC: [8] Use of undefined constant SS_COMMENT - assumed 'SS_COMMENT' D:\wamp64\www\mzz\ThinkPHP\Common\functions.php 第 681 行.
+SQL: update huzan_task set remain_num=remain_num-1 where type='QQ_ZAN' and qq in(123,24234324234) [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `huzan_report` [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 299 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 300 行.
+NOTIC: [8] Use of undefined constant qqs - assumed 'qqs' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 302 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 303 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 304 行.
+SQL: INSERT INTO `huzan_report` (`id`,`qq`,`qqs`,`type`,`create_time`) VALUES (NULL,'1540811286','123,24234324234','QQ_ZAN','2018-10-20 22:45:52') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `huzan_task` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `huzan_task` WHERE ( qq='1540811286' and type='QQ_ZAN' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 311 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 312 行.
+SQL: UPDATE `huzan_task` SET `qq`='1540811286',`total_num`='132',`remain_num`='132',`create_time`='2018-09-29 11:38:02',`privilige`='0',`status`='1',`type`='QQ_ZAN',`sid`=NULL,`res_id`='',`content`='' WHERE `id` = 21 [ RunTime:0.0005s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\wamp64\www\mzz\Application\Home\Controller\HuzanController.class.php 第 373 行.
+
